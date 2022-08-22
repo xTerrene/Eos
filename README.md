@@ -57,14 +57,20 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v1.7
+### Latest - v1.7.1
+
+\+ Added a blocklist to prevent specific user from accessing the script, key or not.
+\+ Added a masterlist to allow specific users to access the script, key or not.
+\> Fixed the "welcome" art on successful load to be more in-line.
+
+### Previous
+
+#### v1.7
 
 \+ A key is now required to load the script properly. Keys can be found in the Discord.  
 \+ Changed how the loading text appears in the developer's console. Now it has fun ASCII text art!  
     \* You'll be notified if your key is incorrect/nonexistent in a similar fashion.
 \> Changed the logo of EBGui.
-
-### Previous
 
 #### 1.6.6
 
