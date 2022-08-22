@@ -1,5 +1,5 @@
-local en = loadstring(game:HttpGet('LINK TO EN.LUA'))()
-local ndec = loadstring(game:HttpGet('LINK TO NDEC.LUA'))()
+local en = loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthToAccess/EBGUI/main/bin/en.lua'))()
+local ndec = loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthToAccess/EBGUI/main/bin/ndec.lua'))()
 
 xpcall(function()
     local dec = ndec.decode(encui)
