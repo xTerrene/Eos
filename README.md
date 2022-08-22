@@ -1,6 +1,4 @@
-# Welcome to EBGUI.
-
-![ebgui small](https://user-images.githubusercontent.com/38049304/185819538-c7dadb62-c88a-40f0-9ee9-3772b3c4d845.png)
+# ![ebgui small](https://user-images.githubusercontent.com/38049304/185819538-c7dadb62-c88a-40f0-9ee9-3772b3c4d845.png) Welcome to EBGUI.
 
 ![version-1 7](https://user-images.githubusercontent.com/38049304/185815877-427ce51d-afd9-44e5-9a70-39449046c0fb.svg)
 [![my-profile](https://user-images.githubusercontent.com/38049304/185816395-296cc028-f944-490d-8889-33a83d5922f5.svg)](https://www.roblox.com/users/32573334/profile)
