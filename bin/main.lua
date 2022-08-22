@@ -1,0 +1,10 @@
+local en = loadstring(game:HttpGet('LINK TO EN.LUA'))()
+local ndec = loadstring(game:HttpGet('LINK TO NDEC.LUA'))()
+
+xpcall(function()
+    local dec = ndec.decode(encui)
+    loadstring(dec)()
+end, function(e)
+    print('encountered error. xpcall says:', e)
+    warn('traceback: ',debug.traceback())
+end)
