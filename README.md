@@ -23,7 +23,7 @@ To use EBGui, you're going to need an executor, such as [Synapse](x.synapse.to),
 - Copy this script into the executor's script window;
 
   ```lua
-  local EBGuiKey = "script_Elemental082022_220503"
+  EBGuiKey = "script_Elemental082022_220503"
   loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthToAccess/EBGUI/main/bin/main.lua'))()
   ```
 This should load EBGui without any problems!
