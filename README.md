@@ -71,6 +71,7 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \+ Changed how the loading text appears in the developer's console. Now it has fun ASCII text art!  
     \* You'll be notified if your key is incorrect/nonexistent in a similar fashion.
 \> Changed the logo of EBGui.
+\> Changed the overall style of the UI, including animations.
 
 #### 1.6.6
 
