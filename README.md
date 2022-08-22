@@ -59,9 +59,10 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 
 ### Latest - v1.7.1
 
-\+ Added a blocklist to prevent specific user from accessing the script, key or not.
-\+ Added a masterlist to allow specific users to access the script, key or not.
-\> Fixed the "welcome" art on successful load to be more in-line.
+\+ Added a blocklist to prevent specific user from accessing the script, key or not.  
+\+ Added a masterlist to allow specific users to access the script, key or not.  
+\> Fixed the "welcome" art on successful load to be more in-line.  
+\> Changed the overall style of the UI, including animations.  
 
 ### Previous
 
@@ -69,9 +70,7 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 
 \+ A key is now required to load the script properly. Keys can be found in the Discord.  
 \+ Changed how the loading text appears in the developer's console. Now it has fun ASCII text art!  
-    \* You'll be notified if your key is incorrect/nonexistent in a similar fashion.
-\> Changed the logo of EBGui.
-\> Changed the overall style of the UI, including animations.
+    \* You'll be notified if your key is incorrect/nonexistent in a similar fashion.  
 
 #### 1.6.6
 
