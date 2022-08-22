@@ -21,6 +21,7 @@ To use EBGui, you're going to need an executor, such as [Synapse](x.synapse.to),
 
 - Ensure your executor is properly attached to your game.
 - Copy this script into the executor's script window;
+
   ```lua
   local EBGuiKey = "script_Elemental082022_220503"
   loadstring(game:HttpGet('insert link here'))()
