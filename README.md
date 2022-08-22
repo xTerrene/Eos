@@ -49,7 +49,7 @@ This list is notcomprehensive; there is so much more in store for you to find!
 
 ## Contributions
 
-Despite the use of the Unlicense for this repository, it is frowned upon to take EBGui from source to fork/modify it. If you have any contributions, fixes, or additions you wish to include in EBGui, please contact me using the email in the "Contact Me" badge above. We can discuss the details as needed there.
+If you have any contributions, fixes, or additions you wish to include in EBGui, you can visit the appropriate channel in the EBGui Discord to submit them! Alternatively, you may also contact me using the email in the "Contact Me" badge above. We can discuss the details as needed there.
 
 ## Changelog
 
