@@ -57,14 +57,29 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v1.7.1
+### Latest - v2.0
+
+\+ Added Solar's Double Ray.  
+\* You need to be close by the opponent for it to fire, much like Instant Blaze, Vine Trap, and Skeleton Grab.  
+\+ Added Storm's Lightning Barrage.  
+\+ Added Spirit's Vigor Gyration.  
+\+ Added Space's Asteroid Belt.  
+\- Removed Infinite Flame Body, Invisible Infinit Flame Body, and Hide Flames.  
+\> Changed "Infinite Rock Armor" to "Instant Rock Armor".  
+\* Most, if not all, body move scripts across the board for EBG have been patched, rendering the Flame Body scripts useless. Rock Armor almost went too, but it was found that it would let you use Rock Armor while moving, so it was just rebranded.  
+\- Removed anything relating to CBring (client bringing).  
+\* Loopbring-based scripts were patched beyond repair, and the implementation here was buggy even prior to that. It didn't make sense to beat the dead horse.  
+\- Remove the "Rejoin Server" button.  
+\* Using the command `;rejoin` will still work fine.  
+
+### Previous
+
+#### v1.7.1
 
 \+ Added a blocklist to prevent specific user from accessing the script, key or not.  
 \+ Added a masterlist to allow specific users to access the script, key or not.  
 \> Fixed the "welcome" art on successful load to be more in-line.  
 \> Changed the overall style of the UI, including animations.  
-
-### Previous
 
 #### v1.7
 
