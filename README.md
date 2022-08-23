@@ -57,7 +57,25 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.0
+### Latest - v2.2
+
+\+ Added Storm's Lightning Dispersion.  
+\* This fires instantly, and will still fire even when in the air.  
+\+ Added Darkness' Murky Missiles.  
+\* Like most AoEs of its kind, you need to be near the target for it to work.  
+\+ Added Technology's Hyperangs.  
+\+ Added Slime's Slime Buddies.  
+\> Changed "Crystal Armament Hack" to "Instant Crystal Armament".  
+\* The original intention of the move was patched beyond repair, but the current implementation still allowed for instant use of the move without warning, so it was kept.  
+\+ Added Technology's Orbital Strike.  
+\- Removed "Amplified Luminous Dispersion."  
+\* This was patched well beyond repair eons ago, and simply was never removed.  
+\- Removed "Enable Sans Immunity" and "Teleport to Sans".  
+\* The original intention of the above was for sansing to be made more consistent and easy, but with the addition of the teleport confirmation both of most executors and in-game, it was made impossible to do so; thus, the decision to remove the two options was made.
+
+### Previous
+
+#### v2.0
 
 \+ Added Solar's Double Ray.  
 \* You need to be close by the opponent for it to fire, much like Instant Blaze, Vine Trap, and Skeleton Grab.  
@@ -71,8 +89,6 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \* Loopbring-based scripts were patched beyond repair, and the implementation here was buggy even prior to that. It didn't make sense to beat the dead horse.  
 \- Remove the "Rejoin Server" button.  
 \* Using the command `;rejoin` will still work fine.  
-
-### Previous
 
 #### v1.7.1
 
