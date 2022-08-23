@@ -2,7 +2,7 @@
 
 # Welcome to EBGUI.
 
-![version-1 7](https://user-images.githubusercontent.com/38049304/185815877-427ce51d-afd9-44e5-9a70-39449046c0fb.svg)
+![version-v2 1](https://user-images.githubusercontent.com/38049304/186096423-40441afe-ad4f-432a-b67d-54096d90ffdd.svg)
 [![my-profile](https://user-images.githubusercontent.com/38049304/185816395-296cc028-f944-490d-8889-33a83d5922f5.svg)](https://www.roblox.com/users/32573334/profile)
 [![contact-me](https://user-images.githubusercontent.com/38049304/185816739-1ec8caa5-c9cf-47f7-b87f-0d28bc8f4724.svg)](mailto:earthtoaccess@gmail.com)
 [![ebgui-discord](https://user-images.githubusercontent.com/38049304/185876260-95e670cf-c037-4082-b03d-b758bc4a492b.svg)](https://discord.gg/z3QZzFJBvj)
