@@ -59,6 +59,17 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 
 ### Latest - v2.2
 
+\+ Added EBGui Gold  
+\* This new premium version of EBGui is intended to give thanks to members who support the project financially by providing them with a selection of hacks that were deemed "too powerful" for standard users to use!  
+\> Made Orbital Strike a Gold hack.  
+\> Made Slime Buddies a Gold hack.  
+\> Made Double Ray a Gold hack.  
+\> Made Instant Dispersion a Gold hack.  
+
+### Previous
+
+#### v2.1
+
 \+ Added Storm's Lightning Dispersion.  
 \* This fires instantly, and will still fire even when in the air.  
 \+ Added Darkness' Murky Missiles.  
@@ -72,8 +83,6 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \* This was patched well beyond repair eons ago, and simply was never removed.  
 \- Removed "Enable Sans Immunity" and "Teleport to Sans".  
 \* The original intention of the above was for sansing to be made more consistent and easy, but with the addition of the teleport confirmation both of most executors and in-game, it was made impossible to do so; thus, the decision to remove the two options was made.
-
-### Previous
 
 #### v2.0
 
