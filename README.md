@@ -57,7 +57,21 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.2
+### Latest - v2.3
+
+\+ Added a welcome message for Master List users.  
+\* Considering the very small number of people who will have Master List access, this may seem redundant, but it's neat so who cares.  
+\> Fixed an issue with Instant Crystal Armament where its text's starting value read "On".  
+\> Did some performance cleanup involving the constant indexing of something that was already declared.  
+\- Completely removed "ebguicast" as it was useless.  
+\* While the idea of having a cheeky branding option in-game was fun to start, technical limitations and the overall brand change of EBGui just didn't line up.  
+\> Made the "terminate UI" text below the main window less ambiguous.  
+\+ Added a functionality where EBGui Gold members would have "EBGui Gold" instead of "EBGui" in the text above the buttons.  
+\+ Running `;heal` will now also use Angelic Aura if you use it on yourself.
+
+### Previous
+
+#### v2.2
 
 \+ Added EBGui Gold  
 \* This new premium version of EBGui is intended to give thanks to members who support the project financially by providing them with a selection of hacks that were deemed "too powerful" for standard users to use!  
@@ -65,8 +79,6 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \> Made Slime Buddies a Gold hack.  
 \> Made Double Ray a Gold hack.  
 \> Made Instant Dispersion a Gold hack.  
-
-### Previous
 
 #### v2.1
 
