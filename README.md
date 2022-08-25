@@ -59,7 +59,7 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 
 ### Latest - v2.4.1
 
-\> Fixed an issue where, after a target leaves, some keybinds wouldn't work because they left. It should not properly recalibrate to yourself.  
+\> Fixed an issue where, after a target leaves, some keybinds wouldn't work because they left. It should now properly recalibrate to yourself.  
 
 ### Previous
 
