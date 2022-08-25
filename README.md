@@ -57,16 +57,20 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.4
+### Latest - v2.4.1
+
+\> Fixed an issue where, after a target leaves, some keybinds wouldn't work because they left. It should not properly recalibrate to yourself.  
+
+### Previous
+
+#### v2.4
 
 \> Moved some stuff around to be more organized. All the bullets in one place, all the AoEs in another.  
 \> Fixed an issue where spacing of the Gold buttons caused options at the bottom of the UI to be cut off (namely, Loop TP to Target, ESP, and Teleport to Drops).  
 \> Removed the button coloring and instead opted for a simple "(G)" indicator for Gold hacks.  
 \* The Gold coloring will return soon, but currently all implementations have failed and caused issues.  
 \+ Added Creation's Continuous Strikes as a Gold hack.  
-\+ Added Reaper's Ult (Reaper's Rage) as a Gold hack.  
-
-### Previous
+\+ Added Reaper's Ult (Reaper's Rage) as a Gold hack. 
 
 #### v2.3
 
