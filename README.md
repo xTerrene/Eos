@@ -57,11 +57,15 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.4.1
+### Latest - v2.5
 
-\> Fixed an issue where, after a target leaves, some keybinds wouldn't work because they left. It should now properly recalibrate to yourself.  
+\+ Added command `;farm`. `;farm` will create a small, blue orb way up in the sky that makes creating Genesis Ray setups significantly easier, without the hassle of needing multiple accounts up acting as anchors.
 
 ### Previous
+
+#### v2.4.1
+
+\> Fixed an issue where, after a target leaves, some keybinds wouldn't work because they left. It should now properly recalibrate to yourself.  
 
 #### v2.4
 
