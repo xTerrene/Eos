@@ -59,8 +59,8 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 
 ### Latest - v2.5.1
 
-\+ (v2.5) Added command `;farm`. `;farm` will create a small, blue orb way up in the sky that makes creating Genesis Ray setups significantly easier, without the hassle of needing multiple accounts up acting as anchors.
-\> (Update v2.5.1) Fixed issue with above in which the command send you so high up Genesis Ray stopped working.
+\+ (v2.5) Added command `;farm`. `;farm` will create a small, blue orb way up in the sky that makes creating Genesis Ray setups significantly easier, without the hassle of needing multiple accounts up acting as anchors.  
+\> ~~(Update v2.5.1) Fixed issue with above in which the command send you so high up Genesis Ray stopped working.~~ This issue is still ongoing and will be updated as soon as possible.
 
 ### Previous
 
