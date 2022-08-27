@@ -57,9 +57,10 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.5
+### Latest - v2.5.1
 
-\+ Added command `;farm`. `;farm` will create a small, blue orb way up in the sky that makes creating Genesis Ray setups significantly easier, without the hassle of needing multiple accounts up acting as anchors.
+\+ (v2.5) Added command `;farm`. `;farm` will create a small, blue orb way up in the sky that makes creating Genesis Ray setups significantly easier, without the hassle of needing multiple accounts up acting as anchors.
+\> (Update v2.5.1) Fixed issue with above in which the command send you so high up Genesis Ray stopped working.
 
 ### Previous
 
