@@ -57,14 +57,18 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.7
+### Latest - v2.7.1
+
+\> Fixed an issue regarding the recent Detailed ESP update where a misnamed function caused both ESPs to function erratically and irregularly.
+
+### Previous
+
+#### v2.7
 
 \+ Added "Detailed ESP" as a Gold feature. The Detailed ESP will provide not just location and health akin to the standard ESP, but will also show users' Mana and Stamina.  
 \* Keep in mind, unfortunately, that due to the nature of how these are stored, there is no way to tell when it increases until another one of the two values update. This means if someone sprints for a split second and stops, their Stamina won't rise again until they either sprint, flip, get punched, or use a move.  
 \+ Added "Infinite Stamina" as a Gold feature. Enable this, and sprinting will no longer cost you any Stamina! Say goodbye to the days of using Speedhack and potentially making it obvious, this one relies entirely on your sprinting status and is virtually undetectable by others!  
 \> Fixed an issue where ESPs sometimes refused to update themselves back to normal if something got caught. It should now properly reset itself.  
-
-### Previous
 
 #### v2.6
 
