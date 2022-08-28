@@ -57,13 +57,20 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.6
+### Latest - v2.7
+
+\+ Added "Detailed ESP" as a Gold feature. The Detailed ESP will provide not just location and health akin to the standard ESP, but will also show users' Mana and Stamina.  
+\* Keep in mind, unfortunately, that due to the nature of how these are stored, there is no way to tell when it increases until another one of the two values update. This means if someone sprints for a split second and stops, their Stamina won't rise again until they either sprint, flip, get punched, or use a move.  
+\+ Added "Infinite Stamina" as a Gold feature. Enable this, and sprinting will no longer cost you any Stamina! Say goodbye to the days of using Speedhack and potentially making it obvious, this one relies entirely on your sprinting status and is virtually undetectable by others!  
+\> Fixed an issue where ESPs sometimes refused to update themselves back to normal if something got caught. It should now properly reset itself.  
+
+### Previous
+
+#### v2.6
 
 \+ Added `;info <info>` command. The two arguments you can provide are "status" and "github", the former providing the working status as shown in the Discord, and the latter providing the link to the very repo you're looking at.  
 \+ Added `;update` command. If your version is current, it will tell you no update is needed. If it isn't, it will tell you you're outdated and give the current version number.  
-\* There is no progress on the `;farm` command, and it's been disabled until a fix can be found. Currently, it appears that Genesis Ray just refuses to fire at the anchor in question and opts to go way past it or deflect away from it. While the cause is unknown, we're looking into it!
-
-### Previous
+\* There is no progress on the `;farm` command, and it's been disabled until a fix can be found. Currently, it appears that Genesis Ray just refuses to fire at the anchor in question and opts to go way past it or deflect away from it. While the cause is unknown, we're looking into it!  
 
 #### v2.5
 
