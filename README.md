@@ -57,12 +57,18 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.5.1
+### Latest - v2.6
+
+\+ Added `;info <info>` command. The two arguments you can provide are "status" and "github", the former providing the working status as shown in the Discord, and the latter providing the link to the very repo you're looking at.  
+\+ Added `;update` command. If your version is current, it will tell you no update is needed. If it isn't, it will tell you you're outdated and give the current version number.  
+\* There is no progress on the `;farm` command, and it's been disabled until a fix can be found. Currently, it appears that Genesis Ray just refuses to fire at the anchor in question and opts to go way past it or deflect away from it. While the cause is unknown, we're looking into it!
+
+### Previous
+
+#### v2.5
 
 \+ (v2.5) Added command `;farm`. `;farm` will create a small, blue orb way up in the sky that makes creating Genesis Ray setups significantly easier, without the hassle of needing multiple accounts up acting as anchors.  
 \> ~~(Update v2.5.1) Fixed issue with above in which the command send you so high up Genesis Ray stopped working.~~ This issue is still ongoing and will be updated as soon as possible.
-
-### Previous
 
 #### v2.4.1
 
