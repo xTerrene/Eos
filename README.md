@@ -44,10 +44,14 @@ Features of EBGui include, but absolutely are not limited to;
 
 - Long-range attacks
 - Instant Ultimates
-- Teleports
-- Shard color changes
+- Enhanced ESP
+- Infinite Stamina
 
-This list is notcomprehensive; there is so much more in store for you to find!
+This list is not comprehensive; there is so much more in store for you to find!
+
+## EBGui Gold
+
+EBGui Gold is our premium membership-based bonus features service that gets you even *more* than what EBGui provides at its base! Visit the Discord at the link above to find more information about what Gold offers and how to Go Gold!
 
 ## Contributions
 
@@ -66,7 +70,7 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 #### v2.7
 
 \+ Added "Detailed ESP" as a Gold feature. The Detailed ESP will provide not just location and health akin to the standard ESP, but will also show users' Mana and Stamina.  
-\* Keep in mind, unfortunately, that due to the nature of how these are stored, there is no way to tell when it increases until another one of the two values update. This means if someone sprints for a split second and stops, their Stamina won't rise again until they either sprint, flip, get punched, or use a move.  
+\* Keep in mind, unfortunately, that due to the nature of how the two are stored, there is no way to tell when it increases until another one of the two values update. This means if someone sprints for a split second and stops, their Stamina won't rise again until they either sprint, flip, get punched, or use a move.  
 \+ Added "Infinite Stamina" as a Gold feature. Enable this, and sprinting will no longer cost you any Stamina! Say goodbye to the days of using Speedhack and potentially making it obvious, this one relies entirely on your sprinting status and is virtually undetectable by others!  
 \> Fixed an issue where ESPs sometimes refused to update themselves back to normal if something got caught. It should now properly reset itself.  
 
