@@ -1,11 +1,11 @@
-![ebgui small](https://user-images.githubusercontent.com/38049304/185819538-c7dadb62-c88a-40f0-9ee9-3772b3c4d845.png)
+![EBGui Logo](https://user-images.githubusercontent.com/38049304/185819538-c7dadb62-c88a-40f0-9ee9-3772b3c4d845.png)
 
 # Welcome to EBGUI.
 
-![version-v2 1](https://user-images.githubusercontent.com/38049304/186096423-40441afe-ad4f-432a-b67d-54096d90ffdd.svg)
-[![my-profile](https://user-images.githubusercontent.com/38049304/185816395-296cc028-f944-490d-8889-33a83d5922f5.svg)](https://www.roblox.com/users/32573334/profile)
-[![contact-me](https://user-images.githubusercontent.com/38049304/185816739-1ec8caa5-c9cf-47f7-b87f-0d28bc8f4724.svg)](mailto:earthtoaccess@gmail.com)
-[![ebgui-discord](https://user-images.githubusercontent.com/38049304/185876260-95e670cf-c037-4082-b03d-b758bc4a492b.svg)](https://discord.gg/z3QZzFJBvj)
+![Milestone 2](https://user-images.githubusercontent.com/38049304/187346393-7f24eee6-cc3b-4b8b-9340-48a0e1865159.svg)
+[![Earth's Roblox Profile](https://user-images.githubusercontent.com/38049304/185816395-296cc028-f944-490d-8889-33a83d5922f5.svg)](https://www.roblox.com/users/32573334/profile)
+[![Contact Us](https://user-images.githubusercontent.com/38049304/187346520-b67caa7c-ccfe-460b-bf88-ac99903f73ed.svg)](mailto:ebgui.staff@gmail.com)
+[![EBGui Discord](https://user-images.githubusercontent.com/38049304/185876260-95e670cf-c037-4082-b03d-b758bc4a492b.svg)](https://discord.gg/z3QZzFJBvj)
 
 
 ---
