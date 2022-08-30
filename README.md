@@ -7,7 +7,6 @@
 [![Contact Us](https://user-images.githubusercontent.com/38049304/187346520-b67caa7c-ccfe-460b-bf88-ac99903f73ed.svg)](mailto:ebgui.staff@gmail.com)
 [![EBGui Discord](https://user-images.githubusercontent.com/38049304/185876260-95e670cf-c037-4082-b03d-b758bc4a492b.svg)](https://discord.gg/z3QZzFJBvj)
 
-
 ---
 
 EBGui is a quick and easy user interface for those with the means to enhance their gameplay in Gamer Robot's Elemental Battlegrounds on Roblox. Included in EBGui is a random shard color creator, visual changes, and better utility options!
@@ -61,11 +60,15 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.7.1
+### Latest - v2.7.2
 
-\> Fixed an issue regarding the recent Detailed ESP update where a misnamed function caused both ESPs to function erratically and irregularly.
+\> Fixed an issue where Detailed ESP wouldn't update properly if a player died or joined after it was enabled.
 
 ### Previous
+
+#### v2.7.1
+
+\> Fixed an issue regarding the recent Detailed ESP update where a misnamed function caused both ESPs to function erratically and irregularly.
 
 #### v2.7
 
