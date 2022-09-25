@@ -60,12 +60,16 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.8
+### Latest - v2.8.2
+
+\> Fixed an issue with Instant Chain Hack where it would take mana but not fire.
+
+### Previous
+
+#### v2.8
 
 \> Fixed a problem with Infinite Sprint where dying would require to you toggle it off and back on.  
 \> Fixed a problem regarding Detailed ESP where using it for an extended period of time would cause lag.
-
-### Previous
 
 #### v2.7.2
 
