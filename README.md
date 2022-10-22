@@ -60,11 +60,19 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.8.2
+### Latest - v2.9
 
-\> Fixed an issue with Instant Chain Hack where it would take mana but not fire.
+\+ Added Dying Star Hack! A mobile, instantly-spawning version of Dying Star which will let you run circles around your opponent!  
+\+ Added Instant Leap Stun Hack! It's like Instant Blaze, but quicker and without burn. Fun to toy with, and doesn't require your opponent to be outside of Safezone to mess with them.  
+\+ Added Light Orbs Hack! Instantly fire 20 Orbs of Enlightenment at your opponent from afar!  
+\+ Added Instant Rock Fist Hack! Usable in the air, too, you can snipe people with Rock Fist wherever your TP is available!  
+\* An attempt at creating a proper, usable aimbot is in the works currently! Please be patient while we find solutions to the issues surrounding this.
 
 ### Previous
+
+#### v2.8.2
+
+\> Fixed an issue with Instant Chain Hack where it would take mana but not fire.
 
 #### v2.8
 
