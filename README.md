@@ -62,7 +62,7 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 
 ### Latest - v2.11 
 
-\~ The biggest EBGui update EVER.  
+\* The biggest EBGui update EVER.  
 \+ Added a crash handler that will provide a crash log and error message in the console if something goes wrong.  
 \> Fixed a problem with Spectral Embodiment's keybind where it wouldn't fire.  
 \> You no longer need both a Gold Key and a standard Key in your script to load EBGui if you have Gold; you'll now just need the Gold Key.  
