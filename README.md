@@ -60,13 +60,24 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.10
+### Latest - v2.11 
+
+\+ Added a crash handler that will provide a crash log and error message in the console if something goes wrong.  
+\> Fixed a problem with Spectral Embodiment's keybind where it wouldn't fire.  
+\> You no longer need both a Gold Key and a standard Key in your script to load EBGui if you have Gold; you'll now just need the Gold Key.  
+\> `;help` will now copy the link directing you to the [Documentation](/Docs.md).  
+\> `;changelog` will now copy the link directing you here, to the changelog.  
+\> Fixed some text scaling with the Main Menu.  
+\- Temporarily removed the drop teleport buttons, as teleporting to drops currently is unreliable.  
+\> Changed the font of EBGui to a rounder, less-angular font. 
+
+### Previous
+
+#### v2.10
 
 \> Fixed the problem with Detailed ESP was off-center from the player it was attached to.  
 \> Detailed ESP now has funky colors!  
-\> Potentially fixed an issue regarding the ESP lag.  
-
-### Previous
+\> Potentially fixed an issue regarding the ESP lag. 
 
 #### v2.8.2
 
