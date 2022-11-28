@@ -71,13 +71,19 @@ EBGui SmartAttack prevents most C-key exploits from firing if your target is in 
 
 Below is a comprehensive list of all the buttons in the Main Menu, and what they do.
 
-## Instant Blaze Column
+## Area of Effect Spells
+
+### Instant Blaze Column
+
+<sup>Pop goes the weasel!</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Blaze Column at the target's location. Must be within standard range to use.
 
-## Amplified Genesis Ray
+### Amplified Genesis Ray
+
+<sup>Sit in gay baby jail.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
@@ -85,325 +91,461 @@ Instantly fires a Genesis Ray at the mouse's cursor location. Use `;grcharge` (s
 
 You'll be unable to use any other Area of Effect moves while your Genesis Ray is active, unless you reset.
 
-## Instant Chain Hack
+### Instant Chain Hack
+
+<sup>Gotchya!</sup>
 
 > Gold. Persistent toggle. Press C to fire while enabled.
 
 Instantly uses the Grab variant of Continuous Strikes while next to the target.
 
-## Instant Vine Trap
+### Instant Vine Trap
+
+<sup>Yoink.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Vine Trap at the target's location. Must be within standard range to use.
 
-## Illusive Atake Hack
+### Illusive Atake Hack
+
+<sup>GET OVER HERE</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Illusive Atake at the target's location, dragging them to the location you were at when you fired it. Can be used anywhere on the map.
 
-## Instant Murky Missiles
+### Instant Murky Missiles
+
+<sup>Because it wasn't OP enough.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Murky Missiles at the target's location. Must be within standard range to use.
 
-## Instant Storm AoE
+### Instant Storm AoE
+
+<sup>There's a storm abrewin'...</sup>
 
 > Gold. Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Lightning Dispersion at your location. Can be used even while in the air.
 
-## Splitting Slime Hack
+### Splitting Slime Hack
+
+<sup>Sticky!</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Splitting Slime at the target's location. Can be used anywhere on the map, but targets suspended in the air may not get hit.
 
-## Amaurotic Lambent Hack
+### Amaurotic Lambent Hack
+
+<sup>At last, I see the light.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Amaurotic Lambent at the target's location. Can be used anywhere on the map.
 
-## Instant Plasma Implostion
+### Instant Plasma Implostion
+
+<sup>How many shrimps do you have to eat?</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Plasma Implosion at the target's location. Must be within standard range.
 
-## Formidable Roar Hack
+### Formidable Roar Hack
+
+<sup>Alright, you don't have to shout at me!</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Formidable Roar at the target's location. Can be used anywhere on the map.
 
-## Instant Skeleton Grab
+### Instant Skeleton Grab
+
+<sup>Spooky, and scary.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Skeleton Grab at the mouse's cursor. Must be within standard range.
 
-## Gravitational Field Hack
+### Gravitational Field Hack
+
+<sup>Fizzy lifting juice.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Gravitational Field at the target's location. Can be used anywhere on the map.
 
-## Instant Rock Armor
+## Bodies, Healing, and Self-Buffs
+
+### Instant Rock Armor
+
+<sup>NANOMACHINES, SON!</sup>
 
 > Instant. Will fire on click.
 
 Instantly uses Rock Armor, with no movement lag keeping you still. Will still impact movement speed.
 
-## Slime Buddies Hack.
+### Slime Buddies Hack.
+
+<sup> Say hello to my little friends!</sup>
 
 > Gold. Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Slime Buddies at the target's location. Can be used anywhere on the map, but may not hit opponents in the air.
 
-## Inertia Gravity
+### Inertia Gravity
+
+<sup>Float like a butterfly.</sup>
 
 > Persistent toggle. Passive, will stay active.
 
 Treats your character as if you have Gravity's Inertia active, not including the anti-stun.
 
-## Spectral Embodiment
+### Spectral Embodiment
 
-> Persistent oggle. Press X to fire while enabled.
+<sup>Now you don't.</sup>
+
+> Persistent toggle. Press X to fire while enabled.
 
 Instantly uses Spectral Embodiment, with no movement lag keeping you still. Will still impact movement speed.
 
-## Anti-Blind
+### Anti-Blind
+
+<sup>Now you see me.</sup>
 
 > Dependent toggle. Pressing K will toggle on/off.
 
 Disables the blinding effects of moves like Amaurotic Lambent, Void Bomb, and Comet Crash.
 
-## Speedhack
+### Speedhack
+
+<sup>FAST AS F*CK, BOIIIIII</sup>
 
 > Dependent toggle. Pressing T will toggle on/off.
 
 Turns on speedhacks. By default, your speed will be set to 64 (equivalent to Speed of 100 sprinting). You can change this via `;speed` (see [The Commands](/Docs.md#The_Commands)).
 
-## Hyperang Hack
+## Bullet Spells
+
+### Hyperang Hack
+
+<sup>From Cartoon Network.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires a standard (no-stun) Hyperrang at the target's location. Can be used anywhere on the map. 
 
-## Asteroids Belt Hack
+### Asteroids Belt Hack
+
+<sup>Space roccs.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires full Asteroids Belt at the target's location. Can be used anywhere on the map. Any missed projectiles will go towards the mouse's location.
 
-## Light Orbs Hack
+### Light Orbs Hack
+
+<sup>AKA Tryhard Balls.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires full Orbs of Enlightenment at the target's location. Can be used anywhere on the map. Any missed projectiles will go towards the mouse's location.
 
-## Vigor Gyration Hack
+### Vigor Gyration Hack
+
+<sup>That's the spirit!</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires full Vigor Gyration at the target's location. Can be used anywhere on the map. Any missed projectiles will go twards the mouse's location.
 
-## Barrage Hack
+### Barrage Hack
+
+<sup>Electrifying.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Lightning Barrage at the target's location. Can be used anywhere on the map.
 
-## Dying Star Hack
+### Dying Star Hack
+
+<sup>Supernova.</sup>
 
 > Gold. Persistent toggle. Press C to fire while enabled.
 
 Instantly fires a Dying Star at the target's location. Can be used anywhere on the map. Dying Star's beams will follow your mouse, as well as the resulting throw of the Star. Removes the movement lag that keeps you still.
 
-## Orbital Strike Hack
+## Blast Spells
+
+### Orbital Strike Hack
+
+<sup>I'm getting GTA Online flashbacks.</sup>
 
 > Gold. Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Orbital Strike at the target's location. Can be used anywhere on the map.
 
-## Double Ray Hack
+### Instant Double Ray
+
+<sup>Railguns.</sup>
 
 > Gold. Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Double Ray directly up into the air at the target's location, bringing you to them to do so. Must be within standard range. 
 
-## Holobeam Camera Attach
+### Holobeam Camera Attach
+
+<sup>Nyoom!</sup>
 
 > Persistent toggle. Passive, will stay active.
 
 Attaches a camera to the start of your Holobeam any time one is fired, allowing more precision in your aim.
 
-## Controlled Echoes
+### Controlled Echoes
+
+<sup>Ping!</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Echoes at the mouse's location. Use `;e` (see [The Commands](/Docs.md#The_Commands)) to change the phase it fires.
 
-## Instant Crystal Armament
+## Shield Spells
+
+### Instant Crystal Armament
+
+<sup>Rock candy.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Crystal Armament at your location, without keeping you in place for its duration.
 
-## Gravital Globe Hack
+### Gravital Globe Hack
+
+<sup>Bouncy castle!</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Gravital Globe at the target's location. Can be used anywhere on the map.
 
-## Reaper's Rage Hack
+## Ultimate Spells
+
+### Remove Ult Cooldown
+
+<sup>He's cashing in the Money in the Bank!</sup>
+
+> Gold. Instant. Will fire on click.
+
+Removes the cooldown on using Ults that's imposed on reset.
+
+### Reaper's Rage Hack
+
+<sup>YOU ARE NOT THE ONE TO CHEAT DEATH.</sup>
 
 > Gold. Persistent toggle. Press C to fire while enabled.
 
-Instantly fires the Reaper's Rage ult at your location.
+Instantly fires the Reaper's Rage Ultimate Spell at your location.
 
-## Ablaze Judgement Hack
+### Ablaze Judgement Hack
 
-> Persistent toggle. Press C to fire while enabled.
-
-Instantly fires the Ablaze Judgement ult at the target's location.
-
-## Void Opening Hack
+<sup>TACTICAL NUKE, INCOMING!</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
-Instantly fires the Void Opening ult at the target's location.
+Instantly fires the Ablaze Judgement Ultimate Spell at the target's location. Can be used anywhere on the map.
 
-## The World Hack
+### Void Opening Hack
 
-> Persistent toggle. Press C to fire while enabled.
-
-Instantly fires The World ult at the target's location.
-
-## Polaris Hack
+<sup>Suck, don't blow.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
-Instantly fires the Polaris ult at the target's location.
+Instantly fires the Void Opening Ultimate Spell at the target's location. Can be used anywhere on the map.
 
-## Instant Shattering Eruption
+### The World Hack
 
-> Persistent toggle. Press C to fire while enabled.
-
-Instantly fires the Shattering Eruption ult at the mouse's location.
-
-## Ethereal Acumen Hack
+<sup>ORAORAORAORAORAORAORAORA</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
-Instantly fires the Etereal Acumen ult at the target's location.
+Instantly fires The World Ultimate Spell at the target's location. Can be used anywhere on the map.
 
-## Toxic Basilisk Hack
+### Polaris Hack
 
-> Persistent toggle. Press C to fire while enabled.
-
-Instantly fires the Toxic Basilisk ult at the target's location, teleporting you to their position.
-
-## Arcane Guardian Hack
+<sup>No, mother, it's just the northern lights.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
-Instantly fires the Arcane Guardian ult at the target's location.
+Instantly fires the Polaris Ultimate Spell at the target's location. Can be used anywhere on the map.
 
-## Virtual Zone Hack
+### Instant Shattering Eruption
+
+<sup>Kaboom.</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
-Instantly fires the Virtal Zone ult at the target's location.
+Instantly fires the Shattering Eruption Ultimate Spell at the mouse's location. Must be within standard range.
 
-## Tech Disk Hack
+### Ethereal Acumen Hack
+
+<sup>Free will is an illusion.</sup>
+
+> Persistent toggle. Press C to fire while enabled.
+
+Instantly fires the Etereal Acumen Ultimate Spell at the target's location. Can be used anywhere on the map.
+
+### Toxic Basilisk Hack
+
+<sup>GIANT LIZARD</sup>
+
+> Persistent toggle. Press C to fire while enabled.
+
+Instantly fires the Toxic Basilisk Ultimate Spell at the target's location, teleporting you to their position. Can be used anywhere on the map.
+
+### Arcane Guardian Hack
+
+<sup>Turn back, or you will be crossing the Will of God.</sup>
+
+> Persistent toggle. Press C to fire while enabled.
+
+Instantly fires the Arcane Guardian Ultimate Spell at the target's location. Can be used anywhere on the map.
+
+### Virtual Zone Hack
+
+<sup>Now THIS is what hacking should look like.</sup>
+
+> Persistent toggle. Press C to fire while enabled.
+
+Instantly fires the Virtal Zone Ultimate Spell at the target's location. Can be used anywhere on the map.
+
+### Solar Stick Bug
+
+<sup>get stickbugged lol</sup>
+
+> Persistent toggle. Press C to fire while enabled.
+
+Instantly fires Unmatched Power of the Sun at the target's location, sticking them and anyone else caught in the Ultimate's beams at the center. Must be within standard range.
+
+## Teleport Spells
+
+### Tech Disk Hack
+
+<sup>It's like an angry frisbee.</sup>
 
 > Gold. Persistent toggle. Press C to fire while enabled.
 
-Instantly fires Light Disk at the target's location, teleporting you to their positon. When used with [SmartAttack](/Docs.md#smartattack), can move people out of safezone. Can possibly lag servers if used enough.
+Instantly fires Light Disk at the target's location, teleporting you to their positon. When used with [SmartAttack](/Docs.md#smartattack) disabled, it can move people out of safezone. Can also possibly lag servers if used enough.
 
-## Random Shard Colors
+### Random Shard Colors
+
+<sup>Eat your school, stay in drugs, don't do vegetables.</sup>
 
 > Persistent toggle. Passive, will stay active.
 
 Randomizes the color of each Shard that drops.
 
-## Anti-Lag
+### Anti-Lag
 
-> Instant. Will fire on click.
+<sup>I SWEAR IT WAS THE LAG IM GOOD GUYS I SWEAR</sup>
 
-Deletes most objects in-game that can impact performance.
+> Persistent toggle. Passive, will stay active.
 
-## Ignore Physics
+Deletes most objects in-game that can impact performance. Some game elements will only delete on enabling; others will be continuously deleted as long as it's active.
+
+### Ignore Physics
+
+<sup>Immovable object.</sup>
 
 > Dependent toggle. Pressing Z will toggle on/off.
 
 Disables the body movement instancves that keep you still or force you in a certain direction. Will also disable wall-hopping and shield protection as a result.
 
-## Anti-Gravity
+### Anti-Gravity
+
+<sup>Going up?</sup>
 
 > Dependent toggle. Pressing G will toggle on/off.
 
 Disables gravity. Jumping will send you high into the air until disabled.
 
-## Click-TP
+### Click-TP
+
+<sup>Wanna see me run to that mountain and back?</sup>
 
 > Persistent toggle. Press J to fire while enabled.
 
 Instantly teleports you to the mouse's location.
 
-## Freeze
+### Freeze
+
+<sup>The joke writes itself, really.</sup>
 
 > Dependent toggle. Pressing F will toggle on/off.
 
 Freezes you in place.
 
-## Infinite sprint
+### Infinite sprint
+
+<sup>Stamina has never been an issue.</sup>
 
 > Gold. Persistent toggle. Click to toggle on/off.
 
 Makes sprinting not take Stamina.
 
-## Instant Leap Stun
+### Instant Leap Stun
+
+<sup>Boink!</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Explosive Leap's stun explosion at the target's location. Must be within standard range.
 
-## Instant Rock Fist
+### Instant Rock Fist
+
+<sup>Bonk!</sup>
 
 > Persistent toggle. Press C to fire while enabled.
 
 Instantly fires Rock Fist in the direction of your mouse's location. Can be used even when in the air.
 
-## Long Flash
+### Long Flash
+
+<sup>Zap.</sup>
 
 > Persistent toggle. Press ` to fire while enabled.
 
 Instantly teleports you to the mouse's location using Lightning Flash. Slightly more deceitful than Click-TP when used right.
 
-## Teleport to Target
+### Teleport to Target
+
+<sup>Nothing personnel, kid.</sup>
 
 > Persistent toggle. Click to toggle on/off.
 
 While enabled, pressing U will teleport you instantly to the target.
 
-## Loop Teleport to Target
+### Loop Teleport to Target
+
+<sup>LIVING IN YOUR WALLS</sup>
 
 > Persistent toggle. Click to toggle on/off.
 
 While Teleport to Target is enabled, this will constantly teleport you to the target on a loop. Disabling Teleport to Target will not disable Loop Teleport to Target, but will stop you from teleporting.
 
-## ESP
+### ESP
+
+<sup>I can smell your spicy brains.</sup>
 
 > Persistent toggle. Pressing B will toggle on/off.
 
 A standard ESP, showing the health and location of those around you. Will be disabled if Detailed ESP is turned on while it's active. <!--The render distance of the text for the ESP can be changed or disabled with `;desp` (see [The Commands](/Docs.md#The_Commands)).-->
 
-## Detailed ESP.
+### Detailed ESP.
+
+<sup>You can what?</sup>
 
 > Gold. Persistent toggle. Pressing M will toggle on/off.
 
