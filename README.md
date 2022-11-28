@@ -60,7 +60,20 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.11 
+### Latest - v2.12
+
+\> Anti-Lag will now properly remove Light Disk continuously, as it should've initially.  
+\+ Added 20 new randomized quotes that show up on launch!  
+\> Changed "Double Ray Hack" to be "Instant Double Ray" to match with the standard of the "Instant" versus "Hack" naming conventions.  
+\+ Added "Remove Ult Cooldown". You can now remove your ult cooldown that's imposed on reset/refresh.  
+\+ Added Solar Stick Bug. Fire it to stick your opponents in place!  
+\> Alt Farm will now teleport you to one of three potential locations while enabled, keeping teleport checks at bay and allowing you a specific place each time it's enabled to go to. The location will change if you en- and re-enable it.  
+\> The Docs now have flavor text for the buttons cuz I was bored.  
+\> Changed "Target RQed" to "Target left" when your target leaves the game.  
+
+### Previous
+
+#### v2.11 
 
 \* The biggest EBGui update EVER.  
 \+ Added a crash handler that will provide a crash log and error message in the console if something goes wrong.  
@@ -71,8 +84,6 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \> Fixed some text scaling with the Main Menu.  
 \- Temporarily removed the drop teleport buttons, as teleporting to drops currently is unreliable.  
 \> Changed the font of EBGui to a rounder, less-angular font. 
-
-### Previous
 
 #### v2.10
 
