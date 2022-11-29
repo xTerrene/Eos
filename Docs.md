@@ -25,7 +25,8 @@ EBGui is a quick and easy user interface for those with the means to enhance the
 2. [The Main Menu](/Docs.md#The_Main_Menu)
 3. [The Buttons](/Docs.md#The_Buttons)
 4. [The Commands](/Docs.md#The_Commands)
-5. [Credits](/Docs.md#Credits)
+5. [About Gold](/Docs.md#About_Gold)
+6. [Credits](/Docs.md#Credits)
 
 ---
 
@@ -61,7 +62,7 @@ Exploits that don't use the C key will have the key they correspond to labeled w
 
 ## Golden Moves
 
-Some features and exploits require EBGui Gold to use. These features are labeled with a "(G)" next to the name; for example, in the image above, "Instant Chain Hack" is prefixed with the "(G)", meaning only Gold members can use it. Attempting to enable it while not a Gold member will just give you an error.
+Some features and exploits require [EBGui Gold](/Docs.md#About_Gold) to use. These features are labeled with a "(G)" next to the name; for example, in the image above, "Instant Chain Hack" is prefixed with the "(G)", meaning only Gold members can use it. Attempting to enable it while not a Gold member will just give you an error.
 
 ## SmartAttack
 
@@ -727,6 +728,12 @@ Checks your EBGui's version against the version stored in the info file. If it m
     ;desp <(number: 10+)|(string: (t|f)|(on|off))>
 
 Changes the render distance of the ESP and Detailed ESP text. Numbers below 10 will reset the distance to its default 750; otherwise, it will set it to the number specified. You can also toggle the ESP render distance on or off entirely.-->
+
+# About Gold
+
+As mentioned in [The Buttons](/Docs.md#Golden_Moves), moves designated with a "(G)" at their start are limited to EBGui Gold members. These members help support the EBGui protect and promote good faith in the community; thus, they're given some special, over-powered options, such as removing your Ult's cooldown, using Lightning Dispersion in the air, and more!
+
+In order to get Gold, visit the Discord link above [or click here](https://discord.gg/z3QZzFJBvj). Visit the #about-gold channel, and follow the instructions provided. Once you do, you'll find a new Key that you can use to unlock everything EBGui has to offer!
 
 # Credits
 
