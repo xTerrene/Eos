@@ -34,7 +34,7 @@ EBGui is a quick and easy user interface for those with the means to enhance the
 
 EBGui's main functionality comes from its Command Box, shown below;
 
-<p align=center><a href="https://imgbb.com/"><img src="https://i.ibb.co/VY9cvzK/EBGui-Command-Box.png" alt="EBGui-Command-Box" border="0"></a></p>
+<p align=center><a href="https://imgbb.com/"><img src="https://i.ibb.co/0shqG6G/EBGui-Command-Box.png" alt="EBGui-Command-Box" border="0"></a></p>
 
 It's in this box that the main meat of EBGui's potential can be provided to you, from modifying how certain features work, to enabling/disabling other features. Anything you need to do, you start with the Command Box.
 
@@ -48,7 +48,7 @@ When you type a command into the input box, that text will also change to give y
 
 Need to hit a Blaze Column well, or maybe send yourself across the map with Long Flash? Use the Main Menu to toggle EBGui's main options and turn on some other exploits!
 
-<p align=center><a href="https://imgbb.com/"><img src="https://i.ibb.co/XDbDfWJ/EBGui-Main.png" alt="EBGui-Main" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload image</a><br /></p>
+<p align=center><a href="https://imgbb.com/"><img src="https://i.ibb.co/k1sMqd3/EBGui-Main-Menu.png" alt="EBGui-Main-Menu" border="0"></a></p>
 
 The Main Menu is split in categories, starting at the topmost with Area of Effect moves. Features with "Hack" in the name can be done from anywhere on the map and will spawn at the target's location. "Instant" features will fire immediately at the location of the target, but only if you're within the normal range of the move hitting.
 
@@ -99,6 +99,14 @@ You'll be unable to use any other Area of Effect moves while your Genesis Ray is
 > Gold. Persistent toggle. Press C to fire while enabled.
 
 Instantly uses the Grab variant of Continuous Strikes while next to the target.
+
+### Space-time Rupture Hack
+
+<sup>I absorbed all the energy of the time vortex, and no one's meant to do that.</sup>
+
+> Persistent toggle. Press C to fire while enabled.
+
+Instantled fires Space-Time Rupture at the location of the target. Can be used anywhere on the map. Must be aimed after firing.
 
 ### Instant Vine Trap
 
@@ -281,6 +289,14 @@ Instantly fires Lightning Barrage at the target's location. Can be used anywhere
 Instantly fires a Dying Star at the target's location. Can be used anywhere on the map. Dying Star's beams will follow your mouse, as well as the resulting throw of the Star. Removes the movement lag that keeps you still.
 
 ## Blast Spells
+
+### Explode at Mouse
+
+<sup>Anyone remember Interactive Buddy?</sup>
+
+> Persustent toggle. Press C to fire while enabled.
+
+Instantly fires Lightning Bolt at the location of your mouse. Can be used anywhere on the map. For best results, ensure target is on the ground.
 
 ### Orbital Strike Hack
 
