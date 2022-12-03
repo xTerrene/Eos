@@ -60,7 +60,16 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.12
+### Latest - v2.13
+
+\> Standard and Detailed ESPs will now properly disable and go away when quitting EBGui.  
+\+ Added "Explode at Mouse". While enabled, you can press C to spawn a Lightning Bolt explosion at the feet of your foes or instantly smack someone ulting, even from across the map!  
+\+ Added "Space-Time Rupture Hack". Open up the wrath of a Time Lord by placing multiple explosions at your enemy's location.  
+\> Fixed Solar Stick Bug's name becoming "Solar Freeze" after you've clicked the button.
+
+### Previous
+
+#### v2.12
 
 \> Anti-Lag will now properly remove Light Disk continuously, as it should've initially.  
 \+ Added 20 new randomized quotes that show up on launch!  
@@ -70,8 +79,6 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \> Alt Farm will now teleport you to one of three potential locations while enabled, keeping teleport checks at bay and allowing you a specific place each time it's enabled to go to. The location will change if you en- and re-enable it.  
 \> The Docs now have flavor text for the buttons cuz I was bored.  
 \> Changed "Target RQed" to "Target left" when your target leaves the game.  
-
-### Previous
 
 #### v2.11 
 
