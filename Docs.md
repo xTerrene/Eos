@@ -34,7 +34,7 @@ EBGui is a quick and easy user interface for those with the means to enhance the
 
 EBGui's main functionality comes from its Command Box, shown below;
 
-<p align=center><a href="https://imgbb.com/"><img src="https://i.ibb.co/0shqG6G/EBGui-Command-Box.png" alt="EBGui-Command-Box" border="0"></a></p>
+<p align=center><a href="https://github.com/EarthToAccess/EBGui/blob/main/Docs.md#The_Command_Box"><img src="https://github.com/EarthToAccess/EBGui/blob/main/images/EBGui Command Box.png" alt="The Command Box." border="0"></a></p>
 
 It's in this box that the main meat of EBGui's potential can be provided to you, from modifying how certain features work, to enabling/disabling other features. Anything you need to do, you start with the Command Box.
 
@@ -48,7 +48,7 @@ When you type a command into the input box, that text will also change to give y
 
 Need to hit a Blaze Column well, or maybe send yourself across the map with Long Flash? Use the Main Menu to toggle EBGui's main options and turn on some other exploits!
 
-<p align=center><a href="https://imgbb.com/"><img src="https://i.ibb.co/k1sMqd3/EBGui-Main-Menu.png" alt="EBGui-Main-Menu" border="0"></a></p>
+<p align=center><a href="https://github.com/EarthToAccess/EBGui/blob/main/Docs.md#The_Main_Menu"><img src="https://github.com/EarthToAccess/EBGui/blob/main/images/EBGui Main Menu.png" alt="The Main Menu." border="0"></a></p>
 
 The Main Menu is split in categories, starting at the topmost with Area of Effect moves. Features with "Hack" in the name can be done from anywhere on the map and will spawn at the target's location. "Instant" features will fire immediately at the location of the target, but only if you're within the normal range of the move hitting.
 
@@ -328,7 +328,7 @@ Attaches a camera to the start of your Holobeam any time one is fired, allowing 
 
 > Persistent toggle. Press C to fire while enabled.
 
-Instantly fires Echoes at the mouse's location. Use `;e` (see [The Commands](/Docs.md#The_Commands)) to change the phase it fires.
+Instantly fires Echoes at the mouse's location. Use `;echoes` (see [The Commands](/Docs.md#The_Commands)) to change the phase it fires, and if it auto-targets..
 
 ## Shield Spells
 
@@ -701,13 +701,17 @@ Enables commands that change the colors of the game's moves' parts and particles
 
     ;heal <string: player>
 
-Spawns Gleaming Harmony and Blue Arson at the location of the specified player. If you specified yourself, also uses Angelic Aura.
+Spawns Gleaming Harmony and Blue Arson at the location of the specified player. If you specified yourself, it will also use Angelic Aura.
 
-## e
+## echoes
 
-    ;e <number: 1-3>
+    ;echoes <string: phase <(string: pow|brn|stun)|(number: 1-3)> | auto [string: (t|f)|(on|off)]
 
-Changes the phase Controlled Echoes will use. 1 uses POW, or the star; 2 uses BURN, or the flame; 3 uses STUN, or the lightning bolt.
+Changes the phase Controlled Echoes will use, or changes its auto-target settings.
+
+For Phase: "POW", or 1, will select the POW-Star; "BRN", or 2, will select the flame; "STN", or 3, will select the stun bolt.
+
+For Auto: No argument will toggle its current state. "t" or "on" will turn it on, "f" or "off" will turn it off.
 
 ## changelog
 
