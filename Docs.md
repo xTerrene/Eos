@@ -328,7 +328,7 @@ Attaches a camera to the start of your Holobeam any time one is fired, allowing 
 
 > Persistent toggle. Press C to fire while enabled.
 
-Instantly fires Echoes at the mouse's location. Use `;echoes` (see [The Commands](/Docs.md#The_Commands)) to change the phase it fires, and if it auto-targets..
+Instantly fires Echoes at the mouse's location. Use `;echoes` (see [The Commands](/Docs.md#The_Commands)) to change the phase it fires, <sup>[upcoming v2.14]</sup>and if it auto-targets.
 
 ## Shield Spells
 
@@ -705,6 +705,8 @@ Spawns Gleaming Harmony and Blue Arson at the location of the specified player. 
 
 ## echoes
 
+<sup>[upcoming v2.14]</sup>
+
     ;echoes <string: phase <(string: pow|brn|stun)|(number: 1-3)> | auto [string: (t|f)|(on|off)]
 
 Changes the phase Controlled Echoes will use, or changes its auto-target settings.
@@ -712,6 +714,12 @@ Changes the phase Controlled Echoes will use, or changes its auto-target setting
 For Phase: "POW", or 1, will select the POW-Star; "BRN", or 2, will select the flame; "STN", or 3, will select the stun bolt.
 
 For Auto: No argument will toggle its current state. "t" or "on" will turn it on, "f" or "off" will turn it off.
+
+<sup>[pre-v2.14]</sup>
+
+    ;e <number: 1-3>
+
+Changes the phase Controlled Echoes will use. 1 uses Pow, orthe star; 2 uses BURN, or the flame; 3 uses STUN, or the lightning bolt.
 
 ## changelog
 
