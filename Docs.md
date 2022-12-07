@@ -2,10 +2,10 @@
 
 # EBGui Documentation
 
-![Milestone 2](https://user-images.githubusercontent.com/38049304/187346393-7f24eee6-cc3b-4b8b-9340-48a0e1865159.svg)
-[![Earth's Roblox Profile](https://user-images.githubusercontent.com/38049304/185816395-296cc028-f944-490d-8889-33a83d5922f5.svg)](https://www.roblox.com/users/32573334/profile)
-[![Contact Us](https://user-images.githubusercontent.com/38049304/187346520-b67caa7c-ccfe-460b-bf88-ac99903f73ed.svg)](mailto:ebgui.staff@gmail.com)
-[![EBGui Discord](https://user-images.githubusercontent.com/38049304/185876260-95e670cf-c037-4082-b03d-b758bc4a492b.svg)](https://discord.gg/z3QZzFJBvj)
+![Milestone 2](https://github.com/EarthToAccess/EBGui/blob/main/images/milestone-version-3.svg)
+[![Earth's Roblox Profile](https://github.com/EarthToAccess/EBGui/blob/main/images/my-profile.svg)](https://www.roblox.com/users/32573334/profile)
+[![Contact Us](https://github.com/EarthToAccess/EBGui/blob/main/images/contact-us.svg)](mailto:ebgui.staff@gmail.com)
+[![EBGui Discord](https://github.com/EarthToAccess/EBGui/blob/main/images/our-discord.svg)](https://discord.gg/z3QZzFJBvj)
 
 ---
 
