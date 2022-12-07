@@ -705,8 +705,6 @@ Spawns Gleaming Harmony and Blue Arson at the location of the specified player. 
 
 ## echoes
 
-<sup>[upcoming v2.14]</sup>
-
     ;echoes <string: phase <(string: pow|brn|stun)|(number: 1-3)> | auto [string: (t|f)|(on|off)]
 
 Changes the phase Controlled Echoes will use, or changes its auto-target settings.
@@ -714,12 +712,6 @@ Changes the phase Controlled Echoes will use, or changes its auto-target setting
 For Phase: "POW", or 1, will select the POW-Star; "BRN", or 2, will select the flame; "STN", or 3, will select the stun bolt.
 
 For Auto: No argument will toggle its current state. "t" or "on" will turn it on, "f" or "off" will turn it off.
-
-<sup>[pre-v2.14]</sup>
-
-    ;e <number: 1-3>
-
-Changes the phase Controlled Echoes will use. 1 uses Pow, orthe star; 2 uses BURN, or the flame; 3 uses STUN, or the lightning bolt.
 
 ## changelog
 
@@ -751,11 +743,17 @@ Provides you with the information given in the info file. This will tell you up-
 
 Checks your EBGui's version against the version stored in the info file. If it matches, you'll be told no update is needed! If it doesn't, you'll be told the current version. This is used if you get a ping for updates.
 
-<!--## desp
+## desp
 
-    ;desp <(number: 10+)|(string: (t|f)|(on|off))>
+    ;desp <(number: 100+)|(string: (t|f)|(on|off))>
 
-Changes the render distance of the ESP and Detailed ESP text. Numbers below 10 will reset the distance to its default 750; otherwise, it will set it to the number specified. You can also toggle the ESP render distance on or off entirely.-->
+Changes the render distance of the ESP and Detailed ESP text. Numbers below 100 will reset the distance to its default 750; otherwise, it will set it to the number specified. You can also toggle the ESP render distance on or off entirely.
+
+## antiafk
+
+    ;antiafk
+
+Turns on or off anti-AFK capabilities. It'll also tell you how many times it's prevented your disconnect for times where you're not entirely certain.
 
 # About Gold
 
