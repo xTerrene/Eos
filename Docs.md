@@ -44,6 +44,8 @@ The text below the input box itself ("Welcome to EBGui!" in the image) is the ou
 
 When you type a command into the input box, that text will also change to give you the response from that command, be it an error, success, or information. Some commands' info might not fit that text spot, though, so always check the console if something went wrong!
 
+Entering the command box is also easy. Not only can you click on it manually, but pressing 0 on your keyboard will automatically focus it!
+
 # The Main Menu
 
 Need to hit a Blaze Column well, or maybe send yourself across the map with Long Flash? Use the Main Menu to toggle EBGui's main options and turn on some other exploits!
