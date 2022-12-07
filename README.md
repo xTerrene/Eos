@@ -60,7 +60,13 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v3.0
+### Latest - v3.0.1
+
+\> Changed the keybind to focus the Command Box, as a recent Roblox update caused the previous one (backslash) to not work.
+
+### Previous
+
+### v3.0
 
 \> Enabling a hack with conflicting spell types (e.g. Blaze Column and Murky Missiles, as AoEs) will now automatically disable the previously enabled move.  
 \> Random Shard Colors will now only change the shard once rather than constantly.  
@@ -79,8 +85,6 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \+ Added `;antiafk`, an anti-AFK functionality that should've been added eons ago. Also includes a counter of how many times it's saved you from disconnection.  
 \+ Re-added Gold feature coloring. Features which require EBGui Gold will now be gold in color.  
 \- Removed "(G)" prefix from in front of Gold hacks.
-
-### Previous
 
 ### v2.13
 
