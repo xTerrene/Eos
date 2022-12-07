@@ -62,7 +62,7 @@ Exploits that don't use the C key will have the key they correspond to labeled w
 
 ## Golden Moves
 
-Some features and exploits require [EBGui Gold](/Docs.md#About_Gold) to use. These features are labeled with a "(G)" next to the name; for example, in the image above, "Instant Chain Hack" is prefixed with the "(G)", meaning only Gold members can use it. Attempting to enable it while not a Gold member will just give you an error.
+Some features and exploits require [EBGui Gold](/Docs.md#About_Gold) to use. These features are golden in color, and won't let you enable them if you don't have your Gold membership set up properly. You'll be given an error if you try to.
 
 ## SmartAttack
 
