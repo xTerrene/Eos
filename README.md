@@ -2,10 +2,10 @@
 
 # Welcome to EBGUI.
 
-![Milestone 2](https://user-images.githubusercontent.com/38049304/187346393-7f24eee6-cc3b-4b8b-9340-48a0e1865159.svg)
-[![Earth's Roblox Profile](https://user-images.githubusercontent.com/38049304/185816395-296cc028-f944-490d-8889-33a83d5922f5.svg)](https://www.roblox.com/users/32573334/profile)
-[![Contact Us](https://user-images.githubusercontent.com/38049304/187346520-b67caa7c-ccfe-460b-bf88-ac99903f73ed.svg)](mailto:ebgui.staff@gmail.com)
-[![EBGui Discord](https://user-images.githubusercontent.com/38049304/185876260-95e670cf-c037-4082-b03d-b758bc4a492b.svg)](https://discord.gg/z3QZzFJBvj)
+![Milestone 2](https://github.com/EarthToAccess/EBGui/blob/main/images/milestone-version-3.svg)
+[![Earth's Roblox Profile](https://github.com/EarthToAccess/EBGui/blob/main/images/my-profile.svg)](https://www.roblox.com/users/32573334/profile)
+[![Contact Us](https://github.com/EarthToAccess/EBGui/blob/main/images/contact-us.svg)](mailto:ebgui.staff@gmail.com)
+[![EBGui Discord](https://github.com/EarthToAccess/EBGui/blob/main/images/our-discord.svg)](https://discord.gg/z3QZzFJBvj)
 
 ---
 
@@ -60,14 +60,34 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v2.13
+### Latest - v3.0
+
+\> Enabling a hack with conflicting spell types (e.g. Blaze Column and Murky Missiles, as AoEs) will now automatically disable the previously enabled move.  
+\> Random Shard Colors will now only change the shard once rather than constantly.  
+\> Renamed `;e` to `;echoes`.  
+\+ `;echoes` now has two arguments; `phase` and `auto`. `phase` will accept "POW", "BRN", "STN", or a number 1 through 3, and acts identical to how `;e` used to. `auto` accepts "t" or "on" and "f" or "off", or alternatively takes no other arguments. The former will turn auto-targeting on or off, while the latter simply toggles its current state.  
+\> Orbital Strike Hack now fires 500 studs above the target, sending them flying into the air.  
+\> Light Orbs Hack now fires 5 studs below the target, making them guaranteed to hit while on solid ground (which they should be if you're trying to hit them anyway).  
+\> Fixed a problem with Hyperrang Hack not properly "turning off" when disabling it.    
+\+ Added 33 more loading quotes.  
+\+ Added 16 more crash quotes.  
+\> Certain dates will now add a blurb above the EBGui loading art.  
+\- Removed "GUI successfully loaded!" output in console, as the crash handler took its function as debugger.  
+\> Changed the font... again.
+\> Changed the colors to clash less.  
+\+ Re-added `;desp` (now with 100% more functionality).  
+\+ Added `;antiafk`, an anti-AFK functionality that should've been added eons ago. Also includes a counter of how many times it's saved you from disconnection.  
+\+ Re-added Gold feature coloring. Features which require EBGui Gold will now be gold in color.  
+\- Removed "(G)" prefix from in front of Gold hacks.
+
+### Previous
+
+### v2.13
 
 \> Standard and Detailed ESPs will now properly disable and go away when quitting EBGui.  
 \+ Added "Explode at Mouse". While enabled, you can press C to spawn a Lightning Bolt explosion at the feet of your foes or instantly smack someone ulting, even from across the map!  
 \+ Added "Space-Time Rupture Hack". Open up the wrath of a Time Lord by placing multiple explosions at your enemy's location.  
 \> Fixed Solar Stick Bug's name becoming "Solar Freeze" after you've clicked the button.
-
-### Previous
 
 #### v2.12
 
@@ -211,23 +231,23 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \+ Changed how the loading text appears in the developer's console. Now it has fun ASCII text art!  
     \* You'll be notified if your key is incorrect/nonexistent in a similar fashion.  
 
-#### 1.6.6
+#### v1.6.6
 
 \> The top status bar will now show the current user's name rather than "Earth".  
 \- Removed "ebguicast" as it was causing medals to simply stop appearing entirely.  
 
-#### 1.6.5
+#### v1.6.5
 
 \> Changed the text command from "e" to "echoes" to prevent interference with other commands.  
 \* Note to self, the letter E really causes a LOT of issues.  
 \+ Added command "ebguicast", which will change every emblem to the EBGui logo.  
 
-#### 1.6.4
+#### v1.6.4
 
 \> Fixed an issue where "magiccolor" changed the color of Shards and Diamonds.  
 \* An issue where the color of Crystal spells also changes exists. The cause is known, but unable to be changed due to how the game handles the moves themselves.
 
-#### 1.6.3
+#### v1.6.3
 
-\> Fixed an issue where "magiccolor" would change the color of players on the server.
+\> Fixed an issue where "magiccolor" would change the color of players on the server.  
 \> Changed the keybind of Longflash from "E" to backtick.
