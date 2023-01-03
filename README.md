@@ -60,13 +60,29 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v3.0.1
+### Latest - v3.1
 
-\> Changed the keybind to focus the Command Box, as a recent Roblox update caused the previous one (backslash) to not work.
+\> Changed a few internal names to improve performance.  
+\> Made Anti-AFK stop spamming you.  
+\- You can no longer `;teleport` to the Tournament or Mega maps.  
+\* Teleporting to these maps have been patched since Solar's update, and attempting to do so at all results in an instant kick.  
+\> You no longer need to remember cryptic names for `;teleport`. Now, you can simply type in their names normally (with or without capitals) and it will work fine! For example, `;teleport Standard Low` will teleport you properly to the under-40 Standard.  
+\+ Re-added the `;refresh` command. Now, `;refresh` will instantly reset and refresh your character! Keep in mind due to how this works, it can't be used to evade death.  
+\* Also has an alias, `;re`.  
+\> `;rejoin` now has an alias `;rj`.  
+\> Anti-lag will now properly stop lag.  
+\+ Promo key capabilities have been properly added.  
+\> Infinite Sprint now works properly.  
+\> The text for the auto-disabling of conflicting moves will now tell you the spell type it disabled (e.g. "Disabled Fire AoE" vs. "Disabled Fire").  
+\> Fixed an issue with Space-Time Rupture where it wouldn't properly disable.  
 
 ### Previous
 
-### v3.0
+#### v3.0.1
+
+\> Changed the keybind to focus the Command Box, as a recent Roblox update caused the previous one (backslash) to not work.
+
+#### v3.0
 
 \> Enabling a hack with conflicting spell types (e.g. Blaze Column and Murky Missiles, as AoEs) will now automatically disable the previously enabled move.  
 \> Random Shard Colors will now only change the shard once rather than constantly.  
@@ -86,7 +102,7 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \+ Re-added Gold feature coloring. Features which require EBGui Gold will now be gold in color.  
 \- Removed "(G)" prefix from in front of Gold hacks.
 
-### v2.13
+#### v2.13
 
 \> Standard and Detailed ESPs will now properly disable and go away when quitting EBGui.  
 \+ Added "Explode at Mouse". While enabled, you can press C to spawn a Lightning Bolt explosion at the feet of your foes or instantly smack someone ulting, even from across the map!  
