@@ -60,7 +60,15 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v3.1
+### Latest - v3.1.1
+
+\> Fixed a problem with Standard ESP that caused it to incorrectly appear even while disabled.  
+\> Fixed lag caused by Standard and Detailed ESP's respective holders and information not being properly cleared.  
+\> Anti-AFK has been optimized, and the counter has been returned.  
+
+### Previous
+
+#### v3.1
 
 \> Changed a few internal names to improve performance.  
 \> Made Anti-AFK stop spamming you.  
@@ -75,8 +83,6 @@ Changelog entries will be denoted very specifically. On top of detailed descript
 \> Infinite Sprint now works properly.  
 \> The text for the auto-disabling of conflicting moves will now tell you the spell type it disabled (e.g. "Disabled Fire AoE" vs. "Disabled Fire").  
 \> Fixed an issue with Space-Time Rupture where it wouldn't properly disable.  
-
-### Previous
 
 #### v3.0.1
 
