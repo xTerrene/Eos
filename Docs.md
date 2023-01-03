@@ -574,7 +574,17 @@ A detailed ESP, showing the health, Stamina, Mana, and location of those around 
 
 Outside of its standard buttons are a slew of commands you can use. You can modify the attributes of some buttons, as seen above, change how the game (or EBGui) looks, and more! Below is a comprehensive list of each command that EBGui has to offer. These commands will only work when used in the Command Box.
 
+## refresh
+
+<sup>Alias: `re`</sup>
+
+    ;refresh
+
+Resets your character, then refreshes. Doesn't prevent kills from being awarded.
+
 ## tp
+
+<sup>Alias: `teleport`</sup>
 
     ;tp <string: standardlow|standard40|light|fire|water|grass|heaven|survival|megastandard|megafire|megagrass>
 
@@ -611,6 +621,8 @@ Changes the height of the buttons in the Main Menu to the given number. Default 
 Changed the gap between the buttons in the Main Menu to the given number. Default is 7.
 
 ## rejoin
+
+<sup>Alias: `rj`
 
     ;rejoin
 
