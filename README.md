@@ -60,13 +60,19 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 Changelog entries will be denoted very specifically. On top of detailed descriptions, the punctuation next to each item will show you what it's denoting. Specifically, plus signs will indicate additions, dashes indicate removals, and less-than signs a change. Asterisks will be general notes.
 
-### Latest - v3.1.1
+### Latest - v3.1.2
+
+\> Fixed a serious key handling problem that nearly brought EBGui to its proverbial knees.  
+\> Promo key for above.  
+\> Shutdown cleanup now properly checks that certain things exist before trying to destroy them.  
+
+### Previous
+
+#### v3.1.1
 
 \> Fixed a problem with Standard ESP that caused it to incorrectly appear even while disabled.  
 \> Fixed lag caused by Standard and Detailed ESP's respective holders and information not being properly cleared.  
 \> Anti-AFK has been optimized, and the counter has been returned.  
-
-### Previous
 
 #### v3.1
 
