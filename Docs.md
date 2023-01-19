@@ -580,7 +580,7 @@ Outside of its standard buttons are a slew of commands you can use. You can modi
 
     ;refresh
 
-Resets your character, then refreshes. Doesn't prevent kills from being awarded.
+Resets your character, then refreshes. Doesn't prevent kills from being awarded. Pressing the "P" key can also do this.
 
 ## tp
 
@@ -636,7 +636,7 @@ Irreversably disables the Aura given via gamepass. Rejoin to re-enable the Aura.
 
 ## targetsetting
 
-    ;targetsetting <string: select|closest|farthest|lowhp|highhp>
+    ;targetsetting <string: (select|closest|farthest|lowhp|highhp|click|kos) <string: (file|link)> <string: source>>
 
 Changes how targets are being selected, with the following setting options;
 
@@ -645,6 +645,8 @@ Changes how targets are being selected, with the following setting options;
 - `farthest`: Selects the person farthest from you as your target.
 - `lowhp`: Selects the person with the lowest HP as your target.
 - `highhp`: Selects the person with the highest HP as your target.
+- `click`: Lets you temporarily click to select your target. Returns to `select` afterwards.
+- `kos`: Lets you provide a KOS list for EBGui to find anyone to target, going top-down. For example, `;targetsetting kos file kos.txt` will look for a file within your executor's Workspace folder named "kos.txt", and pick the first top-most person on that list it finds as your target. See the module script [PFL](https://github.com/EarthToAccess/PFL)'s documentation for more information on what EBGui will expect.
 
 ## loop
 
