@@ -1,6 +1,6 @@
 -- General service information
 
-status = "Green"
-current = "v3.1.1"
-last = "v3.1"
+status = "Red"
+current = "v3.2"
+last = "v3.1.2"
 repo = "https://github.com/EarthToAccess/EBGui/"
