@@ -29,7 +29,7 @@ To use EBGui, you're going to need an executor, such as [Synapse](x.synapse.to),
 - Copy this script into the executor's script window;
 
   ```lua
-  _G = "key_string_here"
+  _L = "key_string_here"
   loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthToAccess/EBGui/main/EBGui.lua'))()
   ```
 
