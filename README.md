@@ -60,7 +60,15 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 
 <sup>Entries in this changelog are denoted by using asterisks (*) for changes, pluses (+) for additions, and dashes (-) for removals.</sup>
 
-### Latest - v3.2
+### Latest - v3.2.1
+
+- [`*`] Fixed an issue with key registration in which the variable wasn't being registered properly.
+- [`+`] Promotional keys will now provide a loading splash in your console (F9) informing you of the date and time of expiry.
+- [`+`] Promotional keys will now also be named in the UI itself, next to your username (e.g. "Name | EBGui Promo | Stable"; see [the Docs](/Docs.md) for more information).
+
+### Previous
+
+#### v3.2
 
 - [`*`] Changed the loadstring a bit! A better system is a happy system.
 - [`*`] Changed how keys work. Instead of a specified variable, you just need to use the one `_G` variable.
@@ -72,8 +80,6 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
   - It should be noted that, due to how Elemental Battlegrounds is coded, using the `click` target setting will cause your aim to act as if you were shooting in the air. This is not an intended feature and is being worked on, but can be circumvented by jumping/flipping after you've set it.
     - ...though, for the most part, if you're using the `click` target setting, you're probably not doing much aiming, are you?
 - [`+`] From now on, EBGui's birthday will be met with fanfare and *Golden* confetti! That's right; every year for the entire day of August 21st, everyone will get free Gold to use for the day.
-
-### Previous
 
 #### v3.1.2
 
