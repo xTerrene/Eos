@@ -1,72 +1,185 @@
-![EBGui Logo](https://user-images.githubusercontent.com/38049304/185819538-c7dadb62-c88a-40f0-9ee9-3772b3c4d845.png)
+![Eos Logo](https://github.com/EarthToAccess/Eos/blob/main/images/Eos%20Logo%20Full.png)
 
-# Welcome to EBGUI.
+# Welcome to a new dawn. Welcome to Eos.
 
-![Milestone 2](https://github.com/EarthToAccess/EBGui/blob/main/images/milestone-version-3.svg)
-[![Earth's Roblox Profile](https://github.com/EarthToAccess/EBGui/blob/main/images/my-profile.svg)](https://www.roblox.com/users/32573334/profile)
-[![Contact Us](https://github.com/EarthToAccess/EBGui/blob/main/images/contact-us.svg)](mailto:ebgui.staff@gmail.com)
-[![EBGui Discord](https://github.com/EarthToAccess/EBGui/blob/main/images/our-discord.svg)](https://discord.gg/z3QZzFJBvj)
+![Current Version](https://img.shields.io/badge/Version-v4.0-bf16ff)
+[![Earth's Roblox Profile](https://img.shields.io/badge/My-Profile-ff8432)](https://www.roblox.com/users/32573334/profile)
+[![Contact Us](https://img.shields.io/badge/Contact-Us-327fff)](mailto:ebgui.staff@gmail.com)
+[![Eos Discord](https://img.shields.io/badge/Join%20the-Discord-32ffdd)](https://discord.gg/z3QZzFJBvj)
 
 ---
 
-EBGui is a quick and easy user interface for those with the means to enhance their gameplay in Gamer Robot's Elemental Battlegrounds on Roblox. Included in EBGui is a random shard color creator, visual changes, and better utility options!
+Eos is the best Elemental Battlegrounds user interface; then, now, forever. Eos has multiple features to help improve your gameplay, from speedhacks to performance boosters.
 
 ---
 
 ## Disclaimer
 
-**EarthToAccess does not take any responsibility for any consequences of improperly using EBGui and/or its features.** Using any user interface such as this in unintended or malicious manners may get your account banned from Elemental Battlegrounds or Roblox. 
+**Eos Staff, including its developers, takes no responsibility for any consequences of improperly using Eos and/or its features.** Using any user interface like Eos in unintended or malicious manners may get your account banned from Elemental Battlegrounds or Roblox.
 
 ## Terms and Conditions
 
-You can view the Terms and Conditions for using this script [at this link.](https://docs.google.com/document/d/15qLJqaVDGmreg5xAgqxvFeVPghS-YcuUUu355M5BJkM/edit?usp=sharing) Please note that, in using the script, you will be bound by these terms.
+You can view the Terms and Conditions for using this script [at this link.](https://bit.ly/EosTnC) While using Eos and its features, you will be bound by these terms; read them carefully.
 
 ## Loading
 
-To use EBGui, you're going to need an executor, such as [Synapse](x.synapse.to), which is paid, or [Krnl](https://krnl.vip/), which is free. Once you have that;
+To use Eos, you will require and executor. [Synapse](x.synapse.to) and [Script-Ware](https://script-ware.com/) are examples of paid executors, while [Krnl](https://krnl.vip/) if an example of a free one. Not all executors may be supported; submit a ticket in our Discord for more information. Then;
 
 - Ensure your executor is properly attached to your game.
-- Copy this script into the executor's script window;
+- Copy the following script into the executor's script window;
 
   ```lua
-  _L = "key_string_here"
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthToAccess/EBGui/main/EBGui.lua'))()
+  ekey = "key_string_here"
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthToAccess/Eos/main/Eos.lua'))()
   ```
 
-  "`key_string_here`" will be a specific string that is required to load the script properly. You can obtain the key by going to the Discord link located in the badges above!
+  "`key_string_here`" will be a specific string that is required to load the script properly, and varies from Basic to other membership types. You can obtain an up-to-date key for your provided membership in the Discord.
 
-  After obtaining the proper key and executing this script, you should be good to go! EBGui will load to the right side of your game.
+  After obtaining the proper key and executing this script, Eos will load and swipe down from the top.
 
 ## Features
 
-Features of EBGui include, but absolutely are not limited to;
+Features of Eos include, but are not limited to;
 
 - Long-range attacks
 - Instant Ultimates
-- Enhanced ESP
-- Infinite Stamina
+- Detailed ESP
+- Infinite Sprint
 
-This list is not comprehensive; there is so much more in store for you to find!
-
-## EBGui Gold
-
-EBGui Gold is our premium membership-based bonus features service that gets you even *more* than what EBGui provides at its base! Visit the Discord at the link above to find more information about what Gold offers and how to Go Gold!
+This list is not comprehensive, and more features may be added as time goes on. See the changelog below for more information.
 
 ## Contributions
 
-If you have any contributions, fixes, or additions you wish to include in EBGui, you can visit the appropriate channel in the EBGui Discord to submit them! Alternatively, you may also contact me using the email in the "Contact Me" badge above. We can discuss the details as needed there.
+If you have any contributions, fixes, or additions you wish to include in Eos, you can visit the appropriate channel in the Eos Discord to submit them. Alternatively, you may also contact me using the email in the "Contact Me" badge above. We can discuss the details as needed there.
+
+## FAQs
+
+### My script isn't working properly
+
+Any problems that EBGui encounters will provide you with an easy-to-read error message telling you exactly what happened. To check for these errors, press F9 to open your client's Developer Console, and ensure you've scrolled all the way down. After you do so, one of the four following things will be shown;
+
+*1. An ASCII-art-boxed notification saying your key doesn't exist.*  
+This message means you improperly formatted the variable for the key, or you forgot to provide the key entirely. The key needs to be formatted as above (`ekey = "key_string_here"`); no `local`, no double equals, and surrounded in quotes. This will set a global variable that the loadstring function can detect and get the value of. This line also needs to be provided *before* the loadstring, to make sure that it can be seen. If this isn't done properly, Eos will be unable to run.
+
+*2. A similar notification saying your key isn't correct.*  
+This message means that Eos detected your key variable, but that it didn't match what was expected. This could be for a variety of reasons, but the most common and probable one is your key being out-of-date. Make sure you're using the latest key, and that you used a string, not a variable (e.g. `ekey = "key_string_here"` vs `ekey = key_string_here`).
+
+*3. A similar notification saying you were blocked from the script... and then you got publicly shamed and kicked from the server.*  
+Hold This L, Bozo™. This message means you've been blocked from using Eos, pursuant of I.D1 of the Eos Terms. Please read the Terms, then visit [the ban appeal form.](https://bit.ly/EosBanAppeal).
+
+*4. A crash report was made, or a Luau error was provided.*
+
+**Please join the Discord and open a ticket as soon as you can.** This means something went wrong that Eos couldn't handle. Once you've opened a ticket, provide us with the crash report and/or error that was created. The crash report can be found in your executor's Workspace folder, in a subfolder made by and for Eos itself.
+
+### Hey, can I get a key
+
+If you asked this question, you either haven't joined the Discord, or are looking for a user-specific key of some form. For the former, join the Discord to find the current key information. Otherwise, no; user specific keys will not be created, period.
+
+### I have a feature/fix I want to recommend
+
+We'd love to hear it. Join the Discord server and send a suggestion in the bots channel.
+
+### UNBLOCK ME FROM THE SCRIPT THIS INSTANT
+
+[no](https://bit.ly/EosBanAppeal)
+
+### Eos got me banned from Elemental Battlegrounds
+
+1. As stated in the disclaimer above *and* in section IC of the Eos Terms, due to the nature of how scripts work, you may find yourself banned via the use of *anything*, let alone Eos. Eos Staff *cannot* do anything to assist with bans. If you bought a membership, your key will still work on other accounts.
+2. Please make a ticket with us in the Discord server, and explain the feature you were using until you were banned. We'll investigate, and determine whether a game update or change caused problems with the feature, and whether a fix is possible.
+
+## Eos Dusk, Twilight, and Dawn
+
+Eos Dusk, Twilight, and Dawn are our premium membership-based bonus features services that gets you even *more* than what Eos provides at its base.
+
+### Why upgrade?
+
+When we introduced a few changes to Eos, we determined there were a fair amount of spells and hacks that were just too overpowered for the average user to take advantage of. We also, however, didn't just want to remove the features entirely. Our solution, then, was three-fold; it provides a method for you, the user, to help donate to our cause, provides you with exclusivity, and prevents servers from being overrun by those abusing the overpowered nature of some features.
+
+### What does subscribing do?
+
+Aside from a cheeky startup message thanking you for being a subscriber of any form, you now get access to a select portion of hacks that Basic members aren't able to use. These are designated by a distinct coloring, and are some of the most powerful features Eos can offer!
+
+### How do I subscribe?
+
+Becoming a member is quick and easy, and only involves a few bits of setup from you;
+
+1. Join the Eos Discord
+2. Become a [Patreon Patron](https://www.patreon.com/user?u=78750394), Discord Booster, or Discord Server Subscriber
+    - If you became a Patron, connect your Discord account to Patreon. You can ensure that it's been connected, afterwards, by visiting your User Settings and going to the Authorized Apps section.
+3. Go to the verification channel in the Discord to llink your Roblox and Discord accounts through RoVer, the Roblox verification bot.
+4. Go to the bots channel and run the `gogold` command, which will check that all the above steps were completed.
+
+When all is said and done, you'll be given the proper access to be a member! Use the tier-specific key provided, and you'll be on your way!
+
+### I have a subscription, but it's not working for me
+
+The same troubleshooting steps mentioned above ring true here. One of the benefits to subscribing is that there's only one variable you need for it to work. Unfortunately, that means that membership keys have the same pitfalls as standard keys. Check the FAQs above for the troubleshooting steps.
+
+### Can I provide my membership key to anyone?
+
+**NO.** Pursuant to section IF.1.A of the Eos Terms, membership keys are *not* to be given to other users. Those who want the current membership key for their tier are required to go through the same methods every member uses; checking the appropriate Discord channel. Please refer to the [Eos Terms and Conditions](https://bit.ly/EosTnC) for more information regarding this.
+
+### I got a membership key via a giveaway. How long does it last for?
+
+Promotional keys have hard-coded time-bombs in them, and will expire on the provided date and time as was advertised. When using a Promotional key, your loading splash message well tell you exactly when your Promotional key will expire/has expired.
 
 ## Changelog
 
 <sup>Entries in this changelog are denoted by using asterisks (*) for changes, pluses (+) for additions, and dashes (-) for removals.</sup>
 
-### Latest - v3.2.1
+### Latest - v4.0
+
+- [`+`] **Welcome to Eos.**
+  - EBGui is now Eos, featuring an easier, cleaner, and faster UI than ever before.
+- [`*`] Changed branding and colors
+  - With this major update comes a fresh look, and an even fresher color scheme.
+- [`+`] Added a notification system
+  - Notifications will now appear in the bottom right, located above the party options button (i.e. "Create Party" or "Invite to Party"). Note that this may cover up members or the player list when inviting; simply wait for the notification to go away.
+  - This replaces the functionality that EBGui v3.4 and lesser had of the Command Box's text changing to provide updates, and further removes more verbose errors being kept to the console.
+- [`+`] Sound effects are now added
+  - There are now sound effects for when Eos starts and quits, for when you enable an option, and two seperate sounds for the aforementioned notifications, depending on if it's a success/information, or if an error occurred.
+- [`-`] Removed the Command Box
+  - Eos no longer utilizes a command box for any of its functionality. All settings and commands that were command-box exclusives now have their own options within their own designated categories -- usually the Settings category.
+    - `;antiafk`, `;heal`, `;stun`, `;speed`, `;grcharge`, `;aura/off`, `;refresh`, `;rejoin`, and `;fix` were all moved to have their own buttons in their own categories.
+    - `;refresh` and `;rejoin` were both given their own keybinds.
+- [`*`] Aura can now be toggled off rather than permanently disabled.
+  - An oversight in versions v3.4 and lesser prompted to completely remove a player's Aura from the game, rather than simply toggling it. Now, it can be toggled on and off as if you typed the appropriate commands into chat.
+- [`*`] The current target will now be listed on the option itself
+  - Please note that modifying the target setting for other than Manual (what was `;targetsetting select`) is not currently possible. Future updates will include this change.
+- [`-`] Removed most cosmetic game changes, such as `;magiccolor`.
+  - While these may be added later as extra features for Dusk members onwards, at the time, they were simply code hogs and were not important to add in this base release.
+  - The functionality of `;drugs` and `;gamecolor` will not be added back in. `;magiccolor`'s functionality may be readded, but it's unknown.
+  - `;rain` and `;declutter` have been removed, and there is no intention to re-add them.
+  - `;buttonheight` and `;buttongap` were removed as they served to modify the previous version's GUI, which is no longer applicable.
+- [`-`] Temporarily removed the ability to disable SmartAttack
+  - SmartAttack toggling will be added as soon as possible.
+- [`-`] Temporarily removed the ability to enable attack looping.
+  - Attack looping will be added as soon as possible.
+- [`-`] Removed `;origin`
+  - At the time, the idea was considered interesting; it's long outlived its usefulness.
+- [`-`] Removed `;help`, `;update`, `;changelog`, and `;info`.
+  - The `;help` command originally provided a link to the Docs. Since no command box exists to manually perform complex tasks, it's been opted to remove it.
+  - The `;update` command would prompt Eos to see if an update was available. While future updates may find a way to recreate this functionality in a faster and easier way, its current iteration was inefficient and proved useless.
+  - The `;info` command, and subcommands `status` and `repo`, provided information about Eos and its current operation (the former subcommand prompting for the current operational status, and the latter providing the current repo link). This was deemed unnecessary to have, and was removed.
+  - The `;changelog` command simply copied the link to this very changelog to the user's clipboard. It was deemed useless.
+- [`*`] Added specific categories for features
+  - Previously, features were simply crammed into one list, very vaguely separated by their move types (where applicable). Now, each feature and option has its own menu depending on what it applies to; e.g, close-ranged moves in the close-ranged category.
+- [`-`] Removed `;update`'s functionality
+  - The `;update` command from EBGui was considered useless considering the circumstances of how Eos works, and thus, was removed.
+- [`*`] The title bar now contains all version and information info
+  - Akin to the top bar of the Main Menu in v3.4 and earlier, the tile bar of Eos will contain the version information.
+  - The title bar's text color will change depending on the membership option you have. Basic users will have standard white, Dusk will use Void Purple, Twilight will Electric Cyan, and Dawn will use Dawn Pastel Pink.
+- [`*`] Various backend changes to improve performance.
+  - The issue involving Unmatched Power of the Sun and its animation is still known, but it appears no fix can be implemented as it runs via RenderStepped and can't be interfered with from Eos' end.
+
+### Previous
+
+#### v3.2.1
 
 - [`*`] Fixed an issue with key registration in which the variable wasn't being registered properly.
 - [`+`] Promotional keys will now provide a loading splash in your console (F9) informing you of the date and time of expiry.
 - [`+`] Promotional keys will now also be named in the UI itself, next to your username (e.g. "Name | EBGui Promo | Stable"; see [the Docs](/Docs.md) for more information).
-
-### Previous
 
 #### v3.2
 
@@ -121,7 +234,7 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 - [`+`] `;echoes` now has two arguments; `phase` and `auto`. `phase` will accept "POW", "BRN", "STN", or a number 1 through 3, and acts identical to how `;e` used to. `auto` accepts "t" or "on" and "f" or "off", or alternatively takes no other arguments. The former will turn auto-targeting on or off, while the latter simply toggles its current state.  
 - [`*`] Orbital Strike Hack now fires 500 studs above the target, sending them flying into the air.  
 - [`*`] Light Orbs Hack now fires 5 studs below the target, making them guaranteed to hit while on solid ground (which they should be if you're trying to hit them anyway).  
-- [`*`] Fixed a problem with Hyperrang Hack not properly "turning off" when disabling it.    
+- [`*`] Fixed a problem with Hyperrang Hack not properly "turning off" when disabling it.
 - [`+`] Added 33 more loading quotes.  
 - [`+`] Added 16 more crash quotes.  
 - [`*`] Certain dates will now add a blurb above the EBGui loading art.  
@@ -151,9 +264,10 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 - [`*`] The Docs now have flavor text for the buttons cuz I was bored.  
 - [`*`] Changed "Target RQed" to "Target left" when your target leaves the game.  
 
-#### v2.11 
+#### v2.11
 
 <sup>The biggest EBGui update EVER.</sup>
+
 - [`+`] Added a crash handler that will provide a crash log and error message in the console if something goes wrong.  
 - [`*`] Fixed a problem with Spectral Embodiment's keybind where it wouldn't fire.  
 - [`*`] You no longer need both a Gold Key and a standard Key in your script to load EBGui if you have Gold; you'll now just need the Gold Key.  
@@ -161,13 +275,13 @@ If you have any contributions, fixes, or additions you wish to include in EBGui,
 - [`*`] `;changelog` will now copy the link directing you here, to the changelog.  
 - [`*`] Fixed some text scaling with the Main Menu.  
 - [`-`] Temporarily removed the drop teleport buttons, as teleporting to drops currently is unreliable.  
-- [`*`] Changed the font of EBGui to a rounder, less-angular font. 
+- [`*`] Changed the font of EBGui to a rounder, less-angular font.
 
 #### v2.10
 
 - [`*`] Fixed the problem with Detailed ESP was off-center from the player it was attached to.  
 - [`*`] Detailed ESP now has funky colors!  
-- [`*`] Potentially fixed an issue regarding the ESP lag. 
+- [`*`] Potentially fixed an issue regarding the ESP lag.
 
 #### v2.8.2
 
