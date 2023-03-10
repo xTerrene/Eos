@@ -1,4 +1,4 @@
-![Eos Logo](https://github.com/EarthToAccess/Eos/blob/main/images/Eos%20Logo%20Full.png)
+![Eos Logo](https://github.com/EarthToAccess/Eos/blob/master/images/Eos%20Logo%20Full.png)
 
 # Welcome to a new dawn. Welcome to Eos.
 
