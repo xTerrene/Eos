@@ -56,7 +56,7 @@ If you have any contributions, fixes, or additions you wish to include in Eos, y
 
 ### My script isn't working properly
 
-Any problems that EBGui encounters will provide you with an easy-to-read error message telling you exactly what happened. To check for these errors, press F9 to open your client's Developer Console, and ensure you've scrolled all the way down. After you do so, one of the four following things will be shown;
+Any problems that Eos encounters will provide you with an easy-to-read error message telling you exactly what happened. To check for these errors, press F9 to open your client's Developer Console, and ensure you've scrolled all the way down. After you do so, one of the four following things will be shown;
 
 *1. An ASCII-art-boxed notification saying your key doesn't exist.*  
 This message means you improperly formatted the variable for the key, or you forgot to provide the key entirely. The key needs to be formatted as above (`ekey = "key_string_here"`); no `local`, no double equals, and surrounded in quotes. This will set a global variable that the loadstring function can detect and get the value of. This line also needs to be provided *before* the loadstring, to make sure that it can be seen. If this isn't done properly, Eos will be unable to run.
