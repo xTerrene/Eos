@@ -2,7 +2,7 @@
 
 # Welcome to a new dawn. Welcome to Eos.
 
-![Current Version](https://img.shields.io/badge/Version-v4.0-bf16ff)
+![Current Version](https://img.shields.io/badge/Version-v4.0.1%20Elmwood%20Ave-bf16ff)
 [![Earth's Roblox Profile](https://img.shields.io/badge/My-Profile-ff8432)](https://www.roblox.com/users/32573334/profile)
 [![Contact Us](https://img.shields.io/badge/Contact-Us-327fff)](mailto:ebgui.staff@gmail.com)
 [![Eos Discord](https://img.shields.io/badge/Join%20the-Discord-32ffdd)](https://discord.gg/z3QZzFJBvj)
@@ -128,7 +128,14 @@ Promotional keys have hard-coded time-bombs in them, and will expire on the prov
 
 <sup>Entries in this changelog are denoted by using asterisks (*) for changes, pluses (+) for additions, and dashes (-) for removals.</sup>
 
-### Latest - v4.0
+### Latest - v4.0.1
+
+- [`*`] Fixed a bug throwing everyone into debug mode
+  - Hope you enjoyed the free Dawn while it lasted
+
+### Previous
+
+#### v4.0
 
 - [`+`] **Welcome to Eos.**
   - EBGui is now Eos, featuring an easier, cleaner, and faster UI than ever before.
@@ -172,8 +179,6 @@ Promotional keys have hard-coded time-bombs in them, and will expire on the prov
   - The title bar's text color will change depending on the membership option you have. Basic users will have standard white, Dusk will use Void Purple, Twilight will Electric Cyan, and Dawn will use Dawn Pastel Pink.
 - [`*`] Various backend changes to improve performance.
   - The issue involving Unmatched Power of the Sun and its animation is still known, but it appears no fix can be implemented as it runs via RenderStepped and can't be interfered with from Eos' end.
-
-### Previous
 
 #### v3.2.1
 
