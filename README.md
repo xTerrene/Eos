@@ -128,12 +128,30 @@ Promotional keys have hard-coded time-bombs in them, and will expire on the prov
 
 <sup>Entries in this changelog are denoted by using asterisks (*) for changes, pluses (+) for additions, and dashes (-) for removals.</sup>
 
-### Latest - v4.0.1
+### Latest - v4.1 Syracuse
+
+- [`*`] Fixed issue with membership detection
+  - Eos was not detecting memberships properly, and despite having Dawn or Twilight, you would not have access to features below it.
+- [`+`] Added SmartAttack toggle
+- [`+`] Added attack looping toggle
+- [`+`] Added target setting selection
+  - Options are; "Manual", "Closest", "Farthest", "Highest HP", "Lowest HP", and "Click". "Manual" replaces pre-v4 `;targetsetting select` option, but ultimately does the same.
+  - Pre-v4 `;targetsetting kos` will not be added into Eos in the near future, as properly implementing it proves impossible.
+- [`*`] Fixed color changing shards being single-threaded
+  - A misconception in how multithreading would work caused shards to pause if an issue came up. Now, all shards will change simultaneously.
+- [`*`] Color-changing shards will now check that they're of a certain color
+- [`*`] Fixed SmartAttack not finding player properly
+- [`*`] Fixed issue with Detailed ESP causing some lag
+- [`*`] Eos will now properly designate color depending on membership
+- [`*`] Viewing a target that has died will reset the camera when they respawn
+- [`*`] Resetting your target while viewing them will disable viewing
+
+### Previous
+
+#### v4.0.1
 
 - [`*`] Fixed a bug throwing everyone into debug mode
   - Hope you enjoyed the free Dawn while it lasted
-
-### Previous
 
 #### v4.0
 
