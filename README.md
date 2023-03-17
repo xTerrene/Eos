@@ -30,7 +30,7 @@ To use Eos, you will require and executor. [Synapse](x.synapse.to) and [Script-W
 
   ```lua
   ekey = "key_string_here"
-  loadstring(game:HttpGet('https://github.com/EarthToAccess/Eos/raw/master/Eos.lua'))()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthToAccess/Eos/master/Eos.lua'))()
   ```
 
   "`key_string_here`" will be a specific string that is required to load the script properly, and varies from Basic to other membership types. You can obtain an up-to-date key for your provided membership in the Discord.
