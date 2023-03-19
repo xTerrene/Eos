@@ -128,7 +128,35 @@ Promotional keys have hard-coded time-bombs in them, and will expire on the prov
 
 <sup>Entries in this changelog are denoted by using asterisks (*) for changes, pluses (+) for additions, and dashes (-) for removals.</sup>
 
-### Latest - v4.1 Syracuse
+### Latest - v4.2 Utica
+
+- [`+`] Added punch aura as a Twilight feature
+  - Punch aura is unaffected by target settings and is set to punch the nearest player
+  - Due to how it works, users may find a performance impact when using the punch aura. A workaround is being devised, but users with low-end systems may want to avoid this feature.
+- [`+`] Added super armor as a Dawn feature
+  - Using an Ultimate hack or other modification move (such as Angelic Aura, Rock Armor, etc.) will cancel out the super armor. This is undetectable by nature and will require a reset/refresh.
+- [`+`] Re-added Infinite Sprint as a Dusk feature
+  - The new implementation of Infinite Sprint was failing to wait for a proper value, and thus, wasn't ever setting correctly.
+- [`*`] Settings menu input boxes now show default values
+  - Input boxes will also show the default value when resetting them.
+- [`+`] Added Rock Armor
+- [`+`] Added Flame Body
+  - Flame Body and Rock Armor will fire instantly on button press, similarly to how Rock Armor worked pre-v4.
+  - Both have their own keybinds, T and G (respectively)
+  - Neither of these will be infinite, as this was patched a while ago.
+- [`+`] Added reduced mana as a Dawn feature
+- [`*`] Heal keybind is now functioning properly
+- [`*`] Made Ultimate cooldown removal Dusk versus Twilight
+- [`*`] Moved Infinite Sprint to the Transportation menu
+- [`*`] Fixed problem with Gravital Globe conflict checking Blast moves
+- [`*`] Fixed issue where move combos were not possible
+  - Previous checks prevented the game from using multiple moves at once was impossible, because it was checking if only one move was active, not all. This error has been fixed, and now you can use any move in combination (provided conflict checks allow).
+- [`+`] Added Auto-level
+  - Auto-leveling works as a toggle and will constantly run in the background. It allows those above level 225 to level automatically without needing to visit Grass map. It will not fire the cap increase if you are below level 225, and will only fire if your EXP is at max.
+
+### Previous
+
+#### v4.1 Syracuse
 
 - [`*`] Fixed issue with membership detection
   - Eos was not detecting memberships properly, and despite having Dawn or Twilight, you would not have access to features below it.
@@ -146,14 +174,12 @@ Promotional keys have hard-coded time-bombs in them, and will expire on the prov
 - [`*`] Viewing a target that has died will reset the camera when they respawn
 - [`*`] Resetting your target while viewing them will disable viewing
 
-### Previous
-
-#### v4.0.1
+#### v4.0.1 Elmwood Ave
 
 - [`*`] Fixed a bug throwing everyone into debug mode
   - Hope you enjoyed the free Dawn while it lasted
 
-#### v4.0
+#### v4.0 Buffalo
 
 - [`+`] **Welcome to Eos.**
   - EBGui is now Eos, featuring an easier, cleaner, and faster UI than ever before.
