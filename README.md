@@ -2,7 +2,7 @@
 
 # Welcome to a new dawn. Welcome to Eos.
 
-![Current Version](https://img.shields.io/badge/Version-v4.0.1%20Elmwood%20Ave-bf16ff)
+![Current Version](https://img.shields.io/badge/Version-v4.2%20Utica-bf16ff)
 [![Earth's Roblox Profile](https://img.shields.io/badge/My-Profile-ff8432)](https://www.roblox.com/users/32573334/profile)
 [![Contact Us](https://img.shields.io/badge/Contact-Us-327fff)](mailto:ebgui.staff@gmail.com)
 [![Eos Discord](https://img.shields.io/badge/Join%20the-Discord-32ffdd)](https://discord.gg/z3QZzFJBvj)
