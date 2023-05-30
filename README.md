@@ -23,7 +23,7 @@ You can view the Terms and Conditions for using this script [at this link.](http
 
 ## Loading
 
-To use Eos, you will require and executor. [Synapse](x.synapse.to) and [Script-Ware](https://script-ware.com/) are examples of paid executors, while [Krnl](https://krnl.vip/) if an example of a free one. Not all executors may be supported; submit a ticket in our Discord for more information. Then;
+To use Eos, you will require an executor. [Synapse](x.synapse.to) and [Script-Ware](https://script-ware.com/) are examples of paid executors, while [Krnl](https://krnl.vip/) is an example of a free one. Not all executors may be supported; submit a ticket in our Discord for more information. Then;
 
 - Ensure your executor is properly attached to your game.
 - Copy the following script into the executor's script window;
