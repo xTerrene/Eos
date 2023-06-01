@@ -1,6 +1,6 @@
 ![Eos Logo](https://github.com/EarthToAccess/Eos/blob/master/images/Eos%20Logo%20Full.png)
 
-# Welcome to a new dawn. Welcome to Eos.
+# Expect more. Expect better. Welcome to a new dawn.
 
 ![Current Version](https://img.shields.io/badge/Version-v4.2%20Utica-bf16ff)
 [![Earth's Roblox Profile](https://img.shields.io/badge/My-Profile-ff8432)](https://www.roblox.com/users/32573334/profile)
