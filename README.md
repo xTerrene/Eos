@@ -32,9 +32,9 @@ Eos Passkey will start once you execute, requesting you provide the Passkey for 
 Features of Eos include, but are not limited to;
 
 - Long-range attacks
-- Instant Ultimates
-- Detailed ESP
 - Infinite Sprint
+- Detailed ESP
+- Reduced Mana
 
 This list is not comprehensive, and more features may be added as time goes on. See the changelog below for more information.
 
@@ -46,73 +46,83 @@ If you have any contributions, fixes, or additions you wish to include in Eos, y
 
 ### Problems loading/using Eos
 
-Any problems that Eos encounters will provide you with an easy-to-read error message telling you exactly what happened. To check for these errors, press F9 to open your client's Developer Console, and ensure you've scrolled all the way down. After you do so, one of the four following things will be shown;
+When loading Eos, you'll should first be greeted with Eos Passkey, our proprietary passkey system. You'll need to provide the Passkey associated with your membership **and press Enter**; you can find this in the provided announcements channel for it (Basic being in #script-announcements). 
 
-*1. An ASCII-art-boxed notification saying your key doesn't exist.*  
-This message means you improperly formatted the variable for the key, or you forgot to provide the key entirely. The key needs to be formatted as above (`ekey = "key_string_here"`); no `local`, no double equals, and surrounded in quotes. This will set a global variable that the loadstring function can detect and get the value of. This line also needs to be provided *before* the loadstring, to make sure that it can be seen. If this isn't done properly, Eos will be unable to run.
+#### Eos Passkey doesn't accept your passkey, with an error
 
-*2. A similar notification saying your key isn't correct.*  
-This message means that Eos detected your key variable, but that it didn't match what was expected. This could be for a variety of reasons, but the most common and probable one is your key being out-of-date. Make sure you're using the latest key, and that you used a string, not a variable (e.g. `ekey = "key_string_here"` vs `ekey = key_string_here`).
+If you enter your Passkey and are greeted with the error sound and red text, your Key is either incorrect or outdated. You'll need to ensure that you've properly copied and pasted/typed your Passkey, and that you're using the most up-to-date version. Promo keys will not tell you whether they are expired.
 
-*3. A similar notification saying you were blocked from the script... and then you got publicly shamed and kicked from the server.*  
-Hold This L, Bozo™. This message means you've been blocked from using Eos, pursuant of I.D1 of the Eos Terms. Please read the Terms, then visit [the ban appeal form.](https://bit.ly/EosBanAppeal).
+#### Eos Passkey doesn't accept your passkey, without an error
 
-*4. A crash report was made, or a Luau error was provided.*
+If you enter your Passkey and nothing happens, first ensure you've actually hit Enter on your keyboard, rather than just leaving the textbox or hitting the Close button. If nothing happens (no error sound, no red text), but it doesn't accept your Passkey, open a ticket with us.
 
-**Please join the Discord and open a ticket as soon as you can.** This means something went wrong that Eos couldn't handle. Once you've opened a ticket, provide us with the crash report and/or error that was created. The crash report can be found in your executor's Workspace folder, in a subfolder made by and for Eos itself.
+#### Eos Passkey fails to open; notification appears saying you've been blocked
 
-### Hey, can I get a key
+Hold This L, Bozo:tm:. This message means you've been blocked from using Eos, pursuant of I.D1 of the Eos Terms. Please read the Terms, then visit [the ban appeal form.](https://bit.ly/EosBanAppeal)
 
-If you asked this question, you either haven't joined the Discord, or are looking for a user-specific key of some form. For the former, join the Discord to find the current key information. Otherwise, no; user specific keys will not be created, period.
+#### Eos Passkey fails to open; a crash report was made, or a Luau error was provided
 
-### I have a feature/fix I want to recommend
+**Please join open a ticket as soon as you can.** This means something went wrong that Eos couldn't handle. Once you've opened a ticket, provide us with the crash report and/or error that was created. The crash report can be found in your executor's Workspace folder, in a subfolder made by and for Eos itself.
 
-We'd love to hear it. Join the Discord server and send a suggestion in the bots channel.
+### How to obtain a Key
 
-### UNBLOCK ME FROM THE SCRIPT THIS INSTANT
+**User-specific keys will *NOT* be provided under any circumstances.**
 
-[no](https://bit.ly/EosBanAppeal)
+The key for your membership can be found on the proper updates channel dedicated to it; e.g., Dawn members would go to the Dawn updates channel. The standard key is in the standard script announcements channel. If you can't see it, you need to verify via the RoVer bot in its channel to do so. Please check its pins.
 
-### Eos got me banned from Elemental Battlegrounds
+### Fixes and Feature Suggestions
 
-1. As stated in the disclaimer above *and* in section IC of the Eos Terms, due to the nature of how scripts work, you may find yourself banned via the use of *anything*, let alone Eos. Eos Staff *cannot* do anything to assist with bans. If you bought a membership, your key will still work on other accounts.
+If you have a fix, workaround, or feature suggestion, we'd love to hear it! Send a suggestion in the bots channel. Not all suggestions can or will be implemented, but those that do will also be added to Eos' credits.
+
+### About Blocks
+
+If you got blocked, you can file a **one-time** appeal at <https://bit.ly/EosBanAppeal>. Keep in mind you are **not** guaranteed to be unblocked, and you will **not** receive notification on whether you have been unblocked or not.
+
+## Eos and EBG bans
+
+1. As stated in the disclaimer above *and* in section IC of the Eos Terms, due to the nature of how scripts work, you may find yourself banned via the use of *anything*, let alone Eos. Eos Staff *cannot* do anything to assist with bans. If you bought an Eos membership, your key will still work on other accounts.
 2. Please make a ticket with us in the Discord server, and explain the feature you were using until you were banned. We'll investigate, and determine whether a game update or change caused problems with the feature, and whether a fix is possible.
 
 ## Eos Dusk, Twilight, and Dawn
 
 Eos Dusk, Twilight, and Dawn are our premium membership-based bonus features services that gets you even *more* than what Eos provides at its base.
 
-### Why upgrade?
+### Upgrading your Membership
 
 When we introduced a few changes to Eos, we determined there were a fair amount of spells and hacks that were just too overpowered for the average user to take advantage of. We also, however, didn't just want to remove the features entirely. Our solution, then, was three-fold; it provides a method for you, the user, to help donate to our cause, provides you with exclusivity, and prevents servers from being overrun by those abusing the overpowered nature of some features.
 
-### What does subscribing do?
+Aside from a cheeky startup message thanking you for being a subscriber of any form, subscribing and upgrading your Membership grants you access to a select portion of hacks that Basic members aren't able to use. These are designated by a distinct coloring, and are some of the most powerful features Eos can offer!
 
-Aside from a cheeky startup message thanking you for being a subscriber of any form, you now get access to a select portion of hacks that Basic members aren't able to use. These are designated by a distinct coloring, and are some of the most powerful features Eos can offer!
+### How to Upgrade
 
-### How do I subscribe?
-
-Becoming a member is quick and easy, and only involves a few bits of setup from you;
+Becoming a Member is quick and easy, and only involves a few bits of setup from you;
 
 1. Join the Eos Discord
 2. Become a [Patreon Patron](https://www.patreon.com/user?u=78750394), Discord Booster, or Discord Server Subscriber
     - If you became a Patron, connect your Discord account to Patreon. You can ensure that it's been connected, afterwards, by visiting your User Settings and going to the Authorized Apps section.
-3. Go to the verification channel in the Discord to llink your Roblox and Discord accounts through RoVer, the Roblox verification bot.
-4. Go to the bots channel and run the `gogold` command, which will check that all the above steps were completed.
 
-When all is said and done, you'll be given the proper access to be a member! Use the tier-specific key provided, and you'll be on your way!
+It's just that easy. Use the tier-specific Passkey provided, and you'll be on your way!
 
-### I have a subscription, but it's not working for me
+### Membership Passkey Sharing
 
-The same troubleshooting steps mentioned above ring true here. One of the benefits to subscribing is that there's only one variable you need for it to work. Unfortunately, that means that membership keys have the same pitfalls as standard keys. Check the FAQs above for the troubleshooting steps.
+Pursuant to section IF.1.A of the Eos Terms, membership keys are *not* to be given to other users. Those who want the current Membership key for their tier are required to go through the same methods every member uses; checking the appropriate Discord channel. Please refer to the [Eos Terms and Conditions](https://bit.ly/EosTnC) for more information regarding this.
 
-### Can I provide my membership key to anyone?
+### Promotional Membership Passkeys
 
-**NO.** Pursuant to section IF.1.A of the Eos Terms, membership keys are *not* to be given to other users. Those who want the current membership key for their tier are required to go through the same methods every member uses; checking the appropriate Discord channel. Please refer to the [Eos Terms and Conditions](https://bit.ly/EosTnC) for more information regarding this.
+Promotional Passkeys have hard-coded time-bombs in them, and will expire on the provided date and time as was advertised. When using a Promotional key, your loading splash message well tell you exactly when your Promotional key will expire.
 
-### I got a membership key via a giveaway. How long does it last for?
+## Credits
 
-Promotional keys have hard-coded time-bombs in them, and will expire on the provided date and time as was advertised. When using a Promotional key, your loading splash message well tell you exactly when your Promotional key will expire/has expired.
+SHA256 implementation was found open-source and modified from [GravityScore on ComputerCraft](http://www.computercraft.info/forums2/index.php?/topic/8169-sha-256-in-pure-lua/).
+
+Reduced Mana was created and provided for use in Eos by happyplay0988 and CHAOSLORD_666; thank you for the assistance!
+
+Further credits go to the following Bug Hunters for their exceptional work, as many of Eos' fixes past, present, and future wouldn't have and won't be properly found without their help;
+
+- 21hellos
+- Austin200wasd
+- Lightking321532
+- Pikachuinfinit
 
 ## Changelog
 
