@@ -1,6 +1,6 @@
 ![Eos Logo](https://github.com/EarthToAccess/Eos/blob/master/images/Eos%20Logo%20Full.png)
 
-# Welcome to a new dawn. Welcome to Eos.
+# Expect more. Expect better. Welcome to a new dawn.
 
 ![Current Version](https://img.shields.io/badge/Version-v4.3%20Yonkers-bf16ff)
 [![Earth's Roblox Profile](https://img.shields.io/badge/My-Profile-ff8432)](https://www.roblox.com/users/32573334/profile)
@@ -23,7 +23,7 @@ You can view the Terms and Conditions for using this script [at this link.](http
 
 ## Loading
 
-To use Eos, you will require and executor. [Synapse](x.synapse.to) and [Script-Ware](https://script-ware.com/) are examples of paid executors, while [Krnl](https://krnl.vip/) if an example of a free one. Not all executors may be supported; submit a ticket in our Discord for more information. Then, attach/inject the executor into your game, usually via a button (though some auto-inject).
+To use Eos, you will require an executor. [Synapse](x.synapse.to) and [Script-Ware](https://script-ware.com/) are examples of paid executors, while [Krnl](https://krnl.vip/) is an example of a free one. Not all executors may be supported; submit a ticket in our Discord for more information. Then, attach/inject the executor into your game, usually via a button (though some auto-inject).
 
 Eos Passkey will start once you execute, requesting you provide the Passkey for your given Membership. You can find this at the Discord server.
 
