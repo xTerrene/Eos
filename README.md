@@ -2,7 +2,7 @@
 
 # Welcome to a new dawn. Welcome to Eos.
 
-![Current Version](https://img.shields.io/badge/Version-v4.2%20Utica-bf16ff)
+![Current Version](https://img.shields.io/badge/Version-v4.3%20Yonkers-bf16ff)
 [![Earth's Roblox Profile](https://img.shields.io/badge/My-Profile-ff8432)](https://www.roblox.com/users/32573334/profile)
 [![Contact Us](https://img.shields.io/badge/Contact-Us-327fff)](mailto:ebgui.staff@gmail.com)
 [![Eos Discord](https://img.shields.io/badge/Join%20the-Discord-32ffdd)](https://discord.gg/z3QZzFJBvj)
@@ -23,19 +23,9 @@ You can view the Terms and Conditions for using this script [at this link.](http
 
 ## Loading
 
-To use Eos, you will require and executor. [Synapse](x.synapse.to) and [Script-Ware](https://script-ware.com/) are examples of paid executors, while [Krnl](https://krnl.vip/) if an example of a free one. Not all executors may be supported; submit a ticket in our Discord for more information. Then;
+To use Eos, you will require and executor. [Synapse](x.synapse.to) and [Script-Ware](https://script-ware.com/) are examples of paid executors, while [Krnl](https://krnl.vip/) if an example of a free one. Not all executors may be supported; submit a ticket in our Discord for more information. Then, attach/inject the executor into your game, usually via a button (though some auto-inject).
 
-- Ensure your executor is properly attached to your game.
-- Copy the following script into the executor's script window;
-
-  ```lua
-  ekey = "key_string_here"
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthToAccess/Eos/master/Eos.lua'))()
-  ```
-
-  "`key_string_here`" will be a specific string that is required to load the script properly, and varies from Basic to other membership types. You can obtain an up-to-date key for your provided membership in the Discord.
-
-  After obtaining the proper key and executing this script, Eos will load and swipe down from the top.
+Eos Passkey will start once you execute, requesting you provide the Passkey for your given Membership. You can find this at the Discord server.
 
 ## Features
 
@@ -54,7 +44,7 @@ If you have any contributions, fixes, or additions you wish to include in Eos, y
 
 ## FAQs
 
-### My script isn't working properly
+### Problems loading/using Eos
 
 Any problems that Eos encounters will provide you with an easy-to-read error message telling you exactly what happened. To check for these errors, press F9 to open your client's Developer Console, and ensure you've scrolled all the way down. After you do so, one of the four following things will be shown;
 
@@ -128,7 +118,46 @@ Promotional keys have hard-coded time-bombs in them, and will expire on the prov
 
 <sup>Entries in this changelog are denoted by using asterisks (*) for changes, pluses (+) for additions, and dashes (-) for removals.</sup>
 
-### Latest - v4.2 Utica
+### Latest - v4.3 Yonkers
+
+- [`+`] Added Eos Passkey
+  - Eos Passkey is a new, even more secure method for loading Eos than before. Rather than loading from a key variable stored in plaintext within the code, Eos Passkey utilizes a hashing system that lets you load in and provide the given passkey for your membership.
+- [`+`] Hiding Eos now has a physical button as well as its original keybind; credit to Lightking321532
+  - The keybind for hiding Eos was always there, it was just never listed.
+- [`+`] Added Infinite Jump
+- [`*`] Changed how keybinds are shown.
+  - This is a cosmetic issue at best, but was done to prevent confusion for the hide Eos keybind.
+- [`*`] Notifications are now multi-threaded.
+  - Originally, notifications were handled on the main thread, which meant certain actions that show notifications (e.g., hiding Eos) were forced to yield until the notification cleared. Now, notifications are multi-threaded and will not prevent Eos from continuing.
+- [`*`] Randomized shard colors will no longer trigger conflict check with target viewing or Holobeam camera.
+- [`*`] Fixed Detailed ESP having incorrect text for Stamina.
+- [`+`] Detailed ESP will now show the location of the user when viewing a target.
+  - Basic ESP will *not* be getting this same feature.
+- [`*`] Fixed Basic ESP not properly showing percentage; credit to Austin200wasd
+- [`*`] Fixed moves that don't require targets to work not firing if one is provided; credit to Austin200wasd
+  - Specifically, this means; Genesis Ray, Mid-air Rock Fist, Crystal Armament, Lightning Flash (if "To mouse" is selected), Echoes (if "At mouse" is selected), and Lightning Bolt (if "At mouse" is selected).
+  - An internal check was not checking for these moves with a target provided, meaning these moves were never being made to fire.
+- [`*`] Made Eos only draggable from the title bar
+  - Eos had an issue in which clicking on any other UI overtop of it would drag it as well. To mitigate this, similar to how operating systems work, the window for Eos can now only be dragged if you're clicking and holding the title bar.
+- [`*`] Fixed issue when hiding Eos while it was below half the screen; credit to Pikachuinfinit
+  - The animation calculated incorrectly and would fail to send off-screen properly.
+  - A further issue was found when dragging an improperly hidden Eos in which doing so would prevent it from hiding at all.
+- [`*`] Changed the keybind for Teleport to Mouse from J to X
+- [`-`] Removed the restrictions of some AoE moves' heights being lesser than 0.
+- [`+`] Added low-gravity
+  - Low gravity is the equivalent of pre-v3.6 "Inertia Gravity", renamed since it doesn't actually use Inertia. Enabling low-gravity and disabling stun gives a no-particles equivalent of Inertia.
+- [`+`] Added anti-lag
+  - Anti-lag was intended at Eos' launch, but was never added. Anti-lag currently clears lag from Tech, Angel, and some other decals that cause chronic lag, including Light Disc.
+- [`*`] Fixed an issue with Explosive Leap performing a conflict check with Shields instead of Teleports
+  - This same bug was somehow causing Explosive Leap to outright not fire.
+- [`*`] Fixed "Click" Target setting causing aim with certain moves to become erratic and incorrect
+- [`*`] Fixed being able to "use" Rock Armor and Flame Body if you were in safezone
+  - While you never actively "used" it to the degree of losing mana, it would still attempt to, playing the select sound. You'll now get a proper error if you try to use it in Safezone.
+- [`*`] Renamed "Going up?" to "No gravity"
+
+### Previous
+
+#### v4.2 Utica
 
 - [`+`] Added punch aura as a Twilight feature
   - Punch aura is unaffected by target settings and is set to punch the nearest player
@@ -153,8 +182,6 @@ Promotional keys have hard-coded time-bombs in them, and will expire on the prov
   - Previous checks prevented the game from using multiple moves at once was impossible, because it was checking if only one move was active, not all. This error has been fixed, and now you can use any move in combination (provided conflict checks allow).
 - [`+`] Added Auto-level
   - Auto-leveling works as a toggle and will constantly run in the background. It allows those above level 225 to level automatically without needing to visit Grass map. It will not fire the cap increase if you are below level 225, and will only fire if your EXP is at max.
-
-### Previous
 
 #### v4.1 Syracuse
 
