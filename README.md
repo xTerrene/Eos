@@ -2,7 +2,7 @@
 
 # Expect more. Expect better. Welcome to a new dawn.
 
-![Current Version](https://img.shields.io/badge/Version-v4.3%20Yonkers-bf16ff)
+![Current Version](https://img.shields.io/badge/Version-v4.3.1%20Yonkers-bf16ff)
 [![Earth's Roblox Profile](https://img.shields.io/badge/My-Profile-ff8432)](https://www.roblox.com/users/32573334/profile)
 [![Contact Us](https://img.shields.io/badge/Contact-Us-327fff)](mailto:ebgui.staff@gmail.com)
 [![Eos Discord](https://img.shields.io/badge/Join%20the-Discord-32ffdd)](https://discord.gg/z3QZzFJBvj)
@@ -128,7 +128,14 @@ Further credits go to the following Bug Hunters for their exceptional work, as m
 
 <sup>Entries in this changelog are denoted by using asterisks (*) for changes, pluses (+) for additions, and dashes (-) for removals.</sup>
 
-### Latest - v4.3 Yonkers
+### Latest - v4.3.1
+
+- [`*`] Fixed Basic Paskeys not working on occasion
+- [`*`] Masterlist users are now not prompted for Eos Passkey
+
+### Previous
+
+#### v4.3 Yonkers
 
 - [`+`] Added Eos Passkey
   - Eos Passkey is a new, even more secure method for loading Eos than before. Rather than loading from a key variable stored in plaintext within the code, Eos Passkey utilizes a hashing system that lets you load in and provide the given passkey for your membership.
@@ -164,8 +171,6 @@ Further credits go to the following Bug Hunters for their exceptional work, as m
 - [`*`] Fixed being able to "use" Rock Armor and Flame Body if you were in safezone
   - While you never actively "used" it to the degree of losing mana, it would still attempt to, playing the select sound. You'll now get a proper error if you try to use it in Safezone.
 - [`*`] Renamed "Going up?" to "No gravity"
-
-### Previous
 
 #### v4.2 Utica
 
