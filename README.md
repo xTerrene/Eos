@@ -128,12 +128,43 @@ Further credits go to the following Bug Hunters for their exceptional work, as m
 
 <sup>Entries in this changelog are denoted by using asterisks (*) for changes, pluses (+) for additions, and dashes (-) for removals.</sup>
 
-### Latest - v4.3.1
+### Latest - v4.4 Brookhaven
 
-- [`*`] Fixed Basic Paskeys not working on occasion
-- [`*`] Masterlist users are now not prompted for Eos Passkey
+- [`+`] **Added Aimbot as a Dawn feature**
+  - In Miscellaneous
+  - Can toggle between "Closest to mouse", or to the target.
+  - The time for bolstering you aim to ludicrous degrees is here, finally. Aimbot was never readily available to those in the EBG scene, and now it is. Automatically target the person closest to your mouse, or send directly to your target.
+  - Works best with moves that are mouse-controlled (Holobeam, Plasma Missiles, etc.)
+- [`+`] **Added Waypoints as a Dusk feature**
+  - *SET:* In Miscellaneous. *GET:* In Transport.
+  - Set a waypoint in the Misc menu, then select the waypoint to teleport to in the Transport menu. Press J to teleport.
+  - Currently, waypoints are **not** saved after Eos is closed. We do anticipate implementing saving of waypoints in the future, though compatibility with non-UNC compliant executors is not expected.
+- [`+`] **Added anti-Aces inversion as a Twilight feature**
+  - While anti-Aces inversion is enabled, you will no longer have your movement inverted when hit by Ace Up The Sleeve.
+  - In Miscellaneous
+- [`+`] Added a Set Time button as a Dusk feature
+  - You can now set the time back and forth from Night to Day with a dynamically changing time. Play EBG in Night Mode, or change the time back to Day if you need or want!
+  - In Miscellaneous
+- [`+`] Added Scintillating Plasma as a Dusk feature
+  - Pull people in with absolutely no sense of personal space using Plasma's Ultimate. With Scintillating Plasma in Eos, you are not restricted to the mouse-based movement and can move freely! Combine with instant Flame Body and standard Sun's Iris, and you can melt through your opponents with ease.
+  - In Close Range; no target required.
+- [`+`] Added Gloomy Blare as a Twilight feature
+  - Fire a death laser at your enemies' faces from across the map, or summon it while standing on top of them in combination with burn damage moves to char them to a crisp.
+  - In Cross-Map; requires a target to be set.
+- [`+`] Added party spamming as a Dawn feature
+  - In Miscellaneous
+  - We all hate being spammed by party invites. Spam party invites at people!
+- [`*`] Teleport to Mouse will now conflict check with Teleport moves.
+- [`*`] The current viewed menu is now highlighted in the sidebar.
+- [`*`] Fixed View Target's notifications not lining up properly.
+- [`*`] Fixed Click Target setting's notification being improperly spaced.
 
 ### Previous
+
+#### v4.3.1
+
+- [`*`] Fixed Basic Passkeys not working on occasion
+- [`*`] Masterlist users are now not prompted for Eos Passkey
 
 #### v4.3 Yonkers
 
