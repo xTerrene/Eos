@@ -9,6 +9,12 @@
 
 ---
 
+# Eos has been deprecated as of December 6th, 2023.
+
+Recent changes in the Roblox exploiting scene have caused updating and maintaining the Eos project impossible, and as such, this repository will be archived. Thank you for the years of support!
+
+---
+
 Eos is the best Elemental Battlegrounds user interface; then, now, forever. Eos has multiple features to help improve your gameplay, from speedhacks to performance boosters.
 
 ---
